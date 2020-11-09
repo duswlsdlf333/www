@@ -1,0 +1,344 @@
+/* 와이드 pc  */
+
+
+#content .about{padding: 9% 3%; overflow: hidden}
+#content .about h3{text-align: center; font-size: 55px; font-weight: 700; color: #fc0001; margin-bottom: 5%}
+#content .about strong{display: block; margin-bottom: 2%; text-align: center; font-size: 22px}
+#content .about p{text-align: center; line-height: 1.5em; margin-bottom: 3%; font-size: 22px}
+#content .about ul{overflow: hidden}
+#content .about li{float: left}
+#content .about li:first-of-type{
+    background: url(../images/about1.jpg) center no-repeat;
+    background-size: cover;
+    height: 470px;
+    width: 40%;
+    margin-right: 1%}
+#content .about li:last-of-type{
+    background: url(../images/about2.jpg) center no-repeat;
+    background-size: cover;
+    height: 470px;
+    width: 59%}
+#content .about li img{width: 100%}
+
+
+#content .trailer div{background: url(../images/trailer_visual.jpg) center no-repeat; 
+background-attachment: fixed; 
+    background-size: cover;
+    width: auto;
+    height: 360px;
+    position: relative}
+#content .trailer h3{text-align: center; font-size: 55px; font-weight: 700; color: #fff; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+text-shadow: 3px 3px 2px rgba(0,0,0,0.3)}
+
+#content .trailer ul{overflow: hidden; padding: 5% 2% 5%}
+#content .trailer li{float: left; width: 31.33%; text-align: center; margin: 0 1% 4%}
+#content .trailer a{display: block}
+#content .trailer a img{width: 100%; margin-bottom: 4%}
+#content .trailer a:hover img{opacity: .7}
+
+#content .character{}
+#content .character .title_character{background: url(../images/character_visual.jpg) center no-repeat; 
+background-attachment: fixed;
+    background-size: cover;
+    width: auto;
+    height: 360px;
+    position: relative}
+#content .character h3{text-align: center; font-size: 55px; font-weight: 700; color: #fff; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
+text-shadow: 3px 3px 2px rgba(0,0,0,0.3)}
+
+#content .character ul{overflow: hidden; padding: 5% 5% 2%}
+#content .character ul:last-of-type{padding: 0% 5% 9%}
+
+#content .character li{float: left; width: 23%; margin: 0 1%}
+
+.margin{margin-bottom: 19px}
+
+#content .character h4{font-size: 30px; font-weight: 700; color: #fc0001; margin-bottom: 8%; line-height: 1.2em}
+#content .character p{line-height: 1.5em; font-size: 18px}
+
+#content .character a{display: block}
+#content .character img{width: 100%}
+
+
+#content .ost_gallery{background: url(../images/background.jpg) center no-repeat; position: relative; background-size: cover; overflow: hidden}
+
+#content .box{background: rgba(0,0,0,.7); position: absolute;left: 5%;
+    top: 7%;
+    right: 5%;
+    bottom: 7%}
+
+#content .ost{padding: 12% 10% 10%; position: relative; z-index: 30; overflow: hidden}
+
+#content .ost h3{text-align: center; font-size: 55px; font-weight: 700; color: #fff; text-shadow: 3px 3px 2px rgba(0,0,0,0.5); margin-bottom: 7%}
+#content .ost ul{overflow: hidden}
+#content .ost li{float: left; width: 21%; margin: 0 2%}
+#content .ost a{display: block}
+#content .ost a img{width: 100%; border-radius: 50%; margin-bottom: 5%; transition: all .8s}
+#content .ost a:hover img{transform: rotateY(180deg)}
+#content .ost p{font-size: 22px; color: #fff; text-align: center}
+
+#content .feature{position: relative; z-index: 30; padding: 0 5% 12%}
+
+#content .feature h3{text-align: center; font-size: 55px; font-weight: 700; color: #fff; text-shadow: 3px 3px 2px rgba(0,0,0,0.5); margin-bottom: 7%}
+
+.feature .inWrap {
+	position: relative;
+}
+
+.feature .fInner {
+	margin: 0 auto;	width: 85%; overflow: hidden;
+	padding-bottom: 1%;
+}
+
+.feature li {
+	float: left; width: 400px; height: 266px;	margin-bottom: 4em; list-style: none
+}
+
+.feature li a {
+	position: relative;
+	display: block; background: #f0f0f0; height: 100%; margin: 0 3%;
+	box-shadow: 2px 2px 5px gray;
+	text-align: center;
+}
+.feature li span {
+	display: block;
+	position: absolute;
+	bottom: -3em;
+	width: 100%;
+    color:#fff;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+.feature li:nth-child(1) a{
+	background: url(../images/fitem01.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(2) a{
+	background: url(../images/fitem02.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(3) a{
+	background: url(../images/fitem03.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(4) a{
+	background: url(../images/fitem04.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(5) a{
+	background: url(../images/fitem05.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(6) a{
+	background: url(../images/fitem06.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(7) a{
+	background: url(../images/fitem07.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(8) a{
+	background: url(../images/fitem08.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(9) a{
+	background: url(../images/fitem09.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(10) a{
+	background: url(../images/fitem10.jpg) center center no-repeat;
+	background-size: cover;
+}
+.feature li:nth-child(11) a{
+	background: url(../images/fitem11.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+
+.feature .swiper-pagination {
+	position: relative;
+	margin-top: 30px;
+}
+.feature .swiper-pagination-progress .swiper-pagination-progressbar{
+	background: rgba(252, 0, 1, 1);
+}
+
+.feature .button div {
+	position: absolute;
+	width: 60px;
+	height: 60px;	
+	text-align: center;
+	top: 30%;	
+	transition: all 0.2s
+}
+.feature .button div:active {
+	transform: translate(2px,2px);
+}
+.feature .button a {
+	display: block;
+	height: 100%;
+}
+
+.feature .back a {font-size: 40px; color: rgba(252, 0, 1, 1)
+	
+}
+
+.feature .next a {font-size: 40px; color: rgba(252, 0, 1, 1)
+	
+}
+
+.feature .back {
+	left: 1%;
+}
+.feature .next {
+	right: 1%;
+}
+
+.feature .view_more{display: block; color: #fff; font-size: 24px; text-align: center; margin-top: 2%}
+
+
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {        
+      
+    #content .about strong{margin-bottom: 2%; font-size: 20px}
+    #content .about p{margin-bottom: 3%; font-size: 20px}
+    
+    #content .character h4{font-size: 24px}
+    #content .character p{font-size: 16px}
+    
+    #content .ost{padding: 15% 10% 10%}    
+    #content .feature{padding: 0 5% 15%}
+    
+    .feature .view_more{font-size: 22px}
+}   
+    
+
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+        
+    #content .trailer li{float: left; width: 48%}
+    #content .trailer li:nth-child(5){display: none}
+    #content .trailer li:nth-child(6){display: none}
+    
+    #content .trailer a img{ 
+        margin-bottom: 2%
+    }
+    
+    #content .character li{float: left; width: 29.33%; margin: 0 2%}    
+    #content .character .character1 li:nth-of-type(4){display: none}
+    #content .character .character2 li:nth-of-type(4){display: none}
+    
+        
+    #content .ost li{width: 29.33%}
+    #content .ost li:nth-child(4){display: none} 
+    
+    .feature .view_more{font-size: 20px}
+}
+
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+            
+    #content .about h3{font-size: 40px; margin-bottom: 5%}
+    
+    #content .about strong{display: block; margin-bottom: 2%; text-align: center; font-size: 18px}
+    #content .about p{text-align: center; line-height: 1.5em; margin-bottom: 3%; font-size: 18px}
+    
+    
+    
+    #content .trailer h3{font-size: 40px}  
+    #content .trailer div{ 
+        background-attachment: local;              
+        height: 200px        
+    }
+    
+    #content .character h3{font-size: 40px}   
+    #content .character .title_character{
+        background-attachment: local;              
+        height: 200px   
+    }
+    
+    #content .character li{float: left; width: 48%; margin: 0 1%}   
+    
+    #content .character .character1 li:nth-of-type(2){display: none}
+    #content .character .character2 li:nth-of-type(3){display: none}
+   
+    
+    #content .ost h3{font-size: 40px; margin-bottom: 7%}   
+    #content .ost p{font-size: 20px}
+    
+    #content .feature h3{font-size: 40px; margin-bottom: 7%}
+    
+    
+    #footerArea .footerLogo img{width: 170px; height: 55px}
+    
+    #footerArea ul li:nth-of-type(1) img{max-width: 100px}
+    #footerArea ul li:nth-of-type(2) img{max-width: 70px}
+    #footerArea ul li:nth-of-type(3) img{max-width: 110px}
+    
+     .feature .view_more{font-size: 18px}
+}
+
+
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    
+    #content .about li{float: none}
+    #content .about li:first-of-type{  
+    height: 400px;
+    width: auto;
+    margin-right: 0
+    }
+    #content .about li:last-of-type{
+        display: none    
+    }
+    
+    
+    #content .trailer li{float: none; width: auto}
+    #content .trailer li:nth-child(3){display: none}
+    #content .trailer li:nth-child(4){display: none}
+    
+    #content .character li{float: left; width: 48%; margin: 0 1%}   
+    
+    #content .character .character1 li:nth-of-type(2){display: none}
+    
+    #content .character .character2 li{float: none; width: auto; margin: 0}
+    #content .character .character2 li:nth-of-type(2){display: none}
+    #content .character .character2 li:nth-of-type(3){display: none}
+    
+    #content .character p{font-size: 14px}
+    
+    #content .ost{padding: 20% 10% 10%}    
+    #content .feature{padding: 0 5% 20%}
+    
+    #content .ost li{width: 46%}
+    #content .ost li:nth-child(3){display: none}      
+	#content .ost p{font-size: 18px}
+    
+     .feature .view_more{font-size: 16px}
+    
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+    
+    .feature .fInner {
+		width: 95%;
+	}
+	.feature li {
+		width: 140px; height: 210px;
+	}
+	.feature li span {
+		font-size: 1.1667em;
+	}
+	.feature .button {
+		display: none;
+	}
+    
+}

@@ -1,0 +1,136 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>DAVICH-가맹 안내</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    
+        
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/sub4common.css">
+    <link rel="stylesheet" href="css/content1.css">
+    
+    
+    <script src="../common/js/prefixfree.min.js"></script>   
+    <script src="https://kit.fontawesome.com/b4aa64dfea.js" crossorigin="anonymous"></script>  
+                  
+                  
+<!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->                         
+                   
+                    
+</head>
+
+<body>
+     
+ <? include "../common/sub_head.html" ?>
+ <? $_GET['num']=1;
+      include "common/sub_nav.html"; 
+   ?>   
+    
+   
+                
+                                                   
+   <!-- 본문 콘텐츠 영역 -->                                   
+                                                       
+         <article id="content">
+            <div class="title_area">
+               <div class="lineMap">
+                   <span>Home</span> &gt; <span>가맹개설</span> &gt; <strong>가맹 안내</strong>
+               </div> 
+               <h2>가맹 안내</h2>    
+            </div>
+            
+            <div class="content_area">
+                
+                <section>
+                    <h3>가맹 문의</h3>                  
+                    <table>  
+                       <thead>
+                           <tr>
+                               <th scope="col">담당자</th>
+                               <th scope="col">연락처</th>
+                               <th scope="col">이메일</th>
+                               <th scope="col">지역</th>
+                           </tr>
+                       </thead>
+
+                       <tbody>
+                           <tr>                                     
+                               <th scope="row">이용정 상무</th>
+                               <td>010-3794-1331</td>
+                               <td>jewdas@davich.com</td>
+                               <td>전지역 총괄</td>
+                           </tr>
+                           <tr>
+                               <th scope="row">진경진 팀장</th>
+                               <td>010-4087-0250</td>
+                               <td>jinkjin@davich.com</td>
+                               <td>서울, 경기, 충청, 강원, 제주</td>
+                           </tr>
+                           <tr>
+                               <td colspan="4">대표번호 <span>070-7433-0144</span></td>
+                           </tr> 
+                       </tbody>
+                   </table>
+                </section>
+                
+                <section>
+                    <h3>성공전략 포인트</h3>
+                    
+                    <ul>
+                        <li>
+                        <img src="images/point1.jpg" alt="">
+                        <p>전문적인 상권분석을 통한<br>지역 최고의 1등 매장오픈<br><span>지역 핵심상권의 대표</span></p>    
+                        </li>
+                        
+                        <li>
+                        <img src="images/point2.jpg" alt="">
+                        <p>최고의 컨설팅 제공으로<br>다비치만의 차별화 정책<br><span>전략정책을 바탕으로 한<br>운영 노하우 접목</span></p>      
+                        </li>
+                        
+                        <li>
+                        <img src="images/point3.jpg" alt="">
+                        <p>다비치 고객만족 시스템<br><span>지속적인<br>신규고객 창출 확보</span></p>      
+                        </li>
+                    </ul>                    
+                    
+                </section>    
+                
+                <section class="team">
+                       <div>
+                           <h3>최고의 오픈 전문팀</h3>                     
+
+                           <dl>
+                             <dt>상권 전문가</dt>
+                             <dd>상권개발 전문가가 신뢰할 수 있는 물건을 추천하고 객관적인 데이터를 근거로 예상매출의 오차를 최소화 합니다.</dd>
+                             <dt>오픈 전문가</dt>
+                             <dd>가맹계약 체결 및 인테리어와 시설에 관한 계약을 진행하고 시공 완료까지 불편함이 없도록 꼼꼼히 확인하고 돕습니다.</dd>
+                             <dt>교육 전문가</dt>
+                             <dd>매장을 안정적으로 개설하고 운영할 수 있도록 가맹점주의 이론 및 실습 교육을 진행하고 매장 운영 매뉴얼의 습득과 서비스, 위생 교육을 진행합니다. 오픈 3일간의 매장 지원을 통해 효과적인 매장운영 노하우를 교육합니다.</dd>
+                             <dt>관리 전문가</dt>
+                             <dd>오픈 이후 지점 담당 슈퍼 바이저가 매장을 정기적으로 방문하여 매장 운영 및 매출에 대해 지속적으로 관리합니다.</dd>
+                            </dl>
+                       </div>
+                </section>                                         
+                                                                
+                
+                                                                                       
+            </div> 
+                    
+         </article>                                                                                                                                                                               
+   <? include "../common/sub_foot.html" ?>
+            
+</body>
+
+</html>

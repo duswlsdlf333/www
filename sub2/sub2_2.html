@@ -1,0 +1,79 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>DAVICH-제품안내</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    
+        
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/sub2common.css">
+    <link rel="stylesheet" href="css/content1_2.css">
+    
+    
+    <script src="../common/js/prefixfree.min.js"></script>   
+    <script src="https://kit.fontawesome.com/b4aa64dfea.js" crossorigin="anonymous"></script>  
+                  
+                  
+<!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->                         
+                   
+                    
+</head>
+
+<body>
+     
+  <? include "../common/sub_head.html" ?>
+  <? $_GET['num']=2;
+      include "common/sub_nav.html"; 
+   ?>   
+                                               
+             
+                
+                                                   
+   <!-- 본문 콘텐츠 영역 -->                                   
+                                                       
+         <article id="content">
+            <div class="title_area">
+               <div class="lineMap">
+                   <span>Home</span> &gt; <span>제품안내</span> &gt; <strong>선글라스</strong>
+               </div> 
+               <h2>선글라스</h2>    
+            </div>
+            
+            <div class="content_area">  
+                
+                <p>과거, 현재, 미래를 재해석 한 절제된 디자인과 최고 품질의 소재로<br>우아함과 세련미를 표현하며 때로는 도시적인 자신감을 더욱 품격있게 높여드립니다.</p>                
+                
+                <ul>
+                    <li><a href="#"><img src="images/sun1.jpg" alt=""><span>[비비엠-선글라스]-BIBIEM-SCHWE-08-C1</span></a></li>
+                    <li><a href="#"><img src="images/sun2.jpg" alt=""><span>[비비엠-선글라스]-BIBIEM-DUNA-13</span></a></li>
+                    <li><a href="#"><img src="images/sun3.jpg" alt=""><span>[비비엠-선글라스]-BIBIEM-BLUE-06</span></a></li>
+                    <li><a href="#"><img src="images/sun4.jpg" alt=""><span>[비비엠-선글라스]-BIBIEM-GAN-11</span></a></li>
+                    <li><a href="#"><img src="images/sun5.jpg" alt=""><span>[비비엠-선글라스]-BIBIEM-HART-01</span></a></li>
+                    <li><a href="#"><img src="images/sun6.jpg" alt=""><span>[비비엠-선글라스]-BIBIEM-JANNE-01</span></a></li>
+                    <li><a href="#"><img src="images/sun7.jpg" alt=""><span>[비비엠]-GAN-14-간-선글라스</span></a></li>
+                    <li><a href="#"><img src="images/sun8.jpg" alt=""><span>[비비엠]-RONT-08-유니크-선글라스</span></a></li>
+                    <li><a href="#"><img src="images/sun9.jpg" alt=""><span>BBM-People's-Edition_BTS403Y</span></a></li>
+                </ul>                                        
+                
+                                                                                       
+            </div> 
+                    
+         </article>                                                                                                                                                             
+     <? include "../common/sub_foot.html" ?>                                                  
+            
+            
+</body>
+
+</html>

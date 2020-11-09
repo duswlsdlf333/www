@@ -1,0 +1,132 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>DAVICH-기업소개</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    
+        
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content4.css">
+    
+    
+    <script src="../common/js/prefixfree.min.js"></script>   
+    <script src="https://kit.fontawesome.com/b4aa64dfea.js" crossorigin="anonymous"></script>  
+                  
+                  
+<!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->                         
+                   
+                    
+</head>
+
+<body>
+     
+  <? include "../common/sub_head.html" ?>
+  <? $_GET['num']=4;
+      include "common/sub_nav.html"; 
+   ?>   
+   
+                
+                                                   
+   <!-- 본문 콘텐츠 영역 -->                                   
+                                                       
+         <article id="content">
+            <div class="title_area">
+               <div class="lineMap">
+                   <span>Home</span> &gt; <span>기업소개</span> &gt; <strong>회사CI</strong>
+               </div> 
+               <h2>회사CI</h2>    
+            </div>
+            
+            <div class="content_area">
+              
+                <section>                                     
+                    <h3 class="hidden">CI 소개정보</h3>
+                    <dl>
+                        <dt>다비치 안경의 심볼마크는</dt>
+                        <dd>태양과 홍채를 모티브로 시작화시켜 단순화한 것으로 밝게 비추는 눈을 형상화하였습니다.</dd>
+                        <dd class="ci_img"><img src="images/content4/symbol_mark.jpg" alt=""></dd>
+                    </dl>
+                    
+                    <dl>
+                        <dt>다비치는 세상을 맑고 밝게 다 비친다는 순수 우리말로</dt>
+                        <dd>고객의 눈을 편안하게 다 보이게 한다는 뜻입니다.</dd>
+                        <dd class="ci_img2 ci_img3"><img src="images/content4/ko_font.jpg" alt=""></dd>
+                        <dd class="ci_img2 ci_img4"><img src="images/content4/eu_font.jpg" alt=""></dd>  
+                    </dl>
+                    
+                    <dl>
+                        <dt>시그니쳐</dt>
+                        <dd class="ci_img"><img src="images/content4/signature1.jpg" alt=""></dd>
+                        <dd class="ci_img"><img src="images/content4/signature2.jpg" alt=""></dd>
+                        <dd class="ci_img">
+                        <img class="sig1" src="images/content4/signature3.jpg" alt="">
+                        <img class="sig2" src="images/content4/signature4.jpg" alt=""></dd>                        
+                    </dl>
+                </section>
+                 
+                <section>
+                    <h3 class="hidden">브랜드 칼라</h3>
+                    <dl>
+                        <dt>다비치 안경의 브랜드 칼라는 전용색상을 의미합니다.</dt>
+                        <dd>브랜드 칼라는 다비치 안경이 특정한 색을 상징으로 정하여 그 색채를 통일성 있게 의도적으로 사용해 나가는 것으로써, 색채면에서 다른 기업들과 명확하게 차별화하는 수단 입니다.<br>메뉴얼에 지정된 정확한 규정으로 색상사용을 하여야만이 다비치 안경의 이미지 통합이 올바른 방향으로 전개되는 것입니다.</dd> 
+                    </dl>
+                    
+                    <div>
+                        <div class="color">
+                            <div class="blue"></div>
+                            <div><span>Davich 블루</span>
+                            <p>C100 + M45%<br>LG-LT 4060A<br>Panton-293c</p>
+                            </div>
+                        </div>
+                        
+                        <div class="color">
+                            <div class="dark"></div>
+                            <div><span>Davich 다크블루</span>
+                            <p>C100 + M45%<br>LG-LT 4060A<br>Panton-293c</p>
+                            </div>   
+                        </div>
+                        
+                        <div class="color">
+                            <div class="black"></div>
+                            <div><span>Davich 블랙</span>
+                            <p>C100 + M45%<br>LG-LT 4060A<br>Panton-293c</p>
+                            </div>   
+                        </div>
+                    </div>
+                    
+                    <ul>
+                        <li><img src="images/content4/blue_si.jpg" alt=""></li>
+                        <li><img src="images/content4/dark_si.jpg" alt=""></li>
+                        <li><img src="images/content4/black_si.jpg" alt=""></li>
+                    </ul>
+                    
+                </section>
+                           
+                                                     
+                           
+                           
+                            
+            </div>  
+                
+                    
+         </article>                                                                                                                                                                               
+   <? include "../common/sub_foot.html" ?>                              
+                                                       
+            
+            
+</body>
+
+</html>

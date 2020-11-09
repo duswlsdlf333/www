@@ -1,0 +1,15 @@
+.content_area{padding: 0 50px 150px}
+
+.content_area #contactUs{width: 1100px; height: 600px; margin: 0 auto}
+
+.content_area figure{margin-top: 50px}
+.content_area figure figcaption{margin-bottom: 40px ; text-align: center}
+.content_area figure strong{color: #333; font-size: 24px; font-weight: bold}
+
+.content_area table{width: 1100px; border-top: 2px solid #0079c2; border-bottom: 2px solid #0079c2}
+
+.content_area table tbody{}
+
+.content_area th{width: 30%; border: 1px solid #ccc; font-size: 22px; padding: 20px 0; border-left-style: none}
+.content_area td{border: 1px solid #ccc; font-size: 20px; padding: 20px 0 20px 30px; line-height: 2em; border-right-style: none}
+.content_area td span{font-size: 16px; font-weight: bold}

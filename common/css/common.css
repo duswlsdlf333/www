@@ -1,0 +1,147 @@
+@charset "utf-8";
+
+/* CSS Reset */
+
+html, body, div , span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video{margin: 0; padding: 0; border: 0; font-size: 100%}
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section{display: block}
+body{font-family: "돋움", Dotum,"굴림",Gulim, sans-serif; font-size: 16px;
+  color: #333}
+ol, ul{list-style: none}
+table{border-collapse: collapse; border-spacing: 0}
+address{font-style: normal}
+a{color: #333; text-decoration: none}
+img{border: 0; vertical-align: top}
+
+.hidden{display: block; position: absolute;
+ left: -1000%; width: 1px; height: 1px;
+  overflow: hidden; color: #fff}
+
+
+#skipNav{position:relative;width:100%;overflow:hidden;z-index: 10}
+#skipNav a{display:block; height:1px; margin-bottom:-1px;
+      overflow:hidden; text-align:center; font-size:16px;}
+#skipNav a:hover,#skipNav a:focus,#skipNav a:active{
+     height:auto;padding:10px 0; background:#f2f2f2;}
+
+
+
+
+ /* font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Nanum Myeongjo', serif;
+font-family: 'Roboto', sans-serif; */   
+
+
+
+/* 헤더공통영역 */
+#wrap{width: 100%; overflow: hidden}
+
+#headerArea{width: 100%; z-index: 100; overflow: hidden; position: fixed; background: #fff; border-bottom: 1px solid #ccc}
+
+#headerArea .header_inner{width: 1200px; margin: 0 auto}
+
+#headerArea .logo{width: 236px; float: left}
+#headerArea .logo a{display: block; width: 185px; height: 49px;
+                    margin: 40px 1px 0 50px; 
+                    background: url(../../common/images/logo.jpg);
+                    text-indent: -999px; overflow: hidden}
+#headerArea .header_right{width: 964px; float: right}
+#headerArea .header_top{overflow: hidden; font-size: 14px}
+#headerArea .header_top ul{overflow: hidden; float: right; margin: 20px 40px 0 0}
+#headerArea .header_top li{float: left}
+#headerArea .header_top .nic{margin-right: 18px; padding-top: 5px}
+#headerArea .header_top .log{margin-right: 18px; padding-top: 5px}
+#headerArea .header_top .joi{margin-right: 18px; padding-top: 5px}
+#headerArea #list_search{position: relative}
+#headerArea #list_search #list_search4 input{width: 140px; height: 20px;     padding-left: 5px}
+#headerArea #list_search #list_search5{position: absolute; top: 5px; right: 5px}
+#headerArea #list_search #list_search5 input{width: 16px}
+
+
+/* 공통 gnb 영역 */
+
+		
+	#gnb{width:964px; float: left; padding-top: 26px} 
+	
+	#gnb .dropdownmenu{float:left; padding: 0 0 40px 16px}
+	#gnb .dropdownmenu .menu{position:relative;float:left; width: 158px; height:23px; text-align: center}
+
+
+	#gnb .dropdownmenu li h3{position:relative;height:23px; overflow:hidden; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; font-size: 20px}
+	
+    #gnb .dropdownmenu li .depth1{display:block; height:23px;}
+    #gnb .dropdownmenu li .depth1:hover{color: #0079c2}
+
+	#gnb .dropdownmenu li ul{width:158px;position:absolute;top:35px;left:0;padding:16px 0; height: 90px; height: 400px}
+
+	#gnb .dropdownmenu li ul li{text-align:center; font-family: 'Nanum Gothic', sans-serif}
+	#gnb .dropdownmenu li ul li a{display: block; color:#666; padding: 10px 0; transition: all .5s}
+	#gnb .dropdownmenu li ul li a:hover{color:#0079c2; font-weight: 700}
+
+
+/* 상단 탑메뉴 공통 */
+.topMove{display:block; width: 50px;
+               height: 50px; background:#0079c2; border-radius: 25px;
+             position: fixed; left:50%; margin-left: 600px; 
+               bottom:350px}
+.topMove span{font-family: 'Nanum Gothic', sans-serif;font-size: 25px;color: #fff; font-weight: 700; display: block; text-align: center;  margin-top: 9px}
+
+
+
+
+/* 푸터공통영역 */
+#footerArea{overflow: hidden; background: #ccc; position: relative;
+    padding-bottom: 80px}
+
+#footerArea::before{content:''; width: 100%; height: 5px; background: #0079c2; position: absolute; left: 0; top: 0}
+
+#footerArea .footer_inner{width: 1200px; margin: 0 auto; overflow: hidden}
+
+#footerArea .footer_left{float: left; width: 900px;
+padding: 50px 0 0 50px}
+#footerArea .footer_left div{overflow: hidden}
+#footerArea .footer_left a{display: block; float: left; margin-right: 50px}
+#footerArea .footer_left .foot_nav{float: left}
+#footerArea .footer_left .foot_nav li{font-family: 'Nanum Gothic', sans-serif; float: left; margin-top: 7px}
+#footerArea .footer_left address{margin: 55px 0 20px; line-height: 2em;}
+
+
+#footerArea .footer_right{width: 250px; float: right}
+
+#footerArea .footer_family{width: 150px; height: 30px;  background: #fff; border: 1px solid #999; position: relative; margin: 50px 33px 52px 17px}
+#footerArea .footer_family .arrow{display: block; width: 150px; height: 30px; color: #666; padding: 6px 0 0 20px; font-family: 'Nanum Gothic', sans-serif; font-size: 14px}
+#footerArea .footer_family .arrow:hover{color: #000}
+#footerArea .footer_family span{color: #666; margin-left: 30px}
+#footerArea .footer_family .aList{position:absolute; top:30px; left:-1px; width:150px; border: 1px solid #999; display: none}
+#footerArea .footer_family .aList li{line-height:1.5em; border-bottom:1px solid #999; background: #fff; height: 30px}
+#footerArea .footer_family .aList li a{display:block; padding: 2px 0 0 20px; font-family: 'Nanum Gothic', sans-serif; font-size: 14px}
+
+
+#footerArea .footer_platform{}
+#footerArea .footer_platform ul{overflow: hidden}
+#footerArea .footer_platform li{float: left; margin: 0 18px}
+#footerArea .footer_platform i{font-size: 38px; color: #999}
+#footerArea .footer_platform i:hover{color: #333}
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,79 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>DAVICH-가맹 개설안내</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    
+        
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/sub4common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+    
+    <script src="../common/js/prefixfree.min.js"></script>   
+    <script src="https://kit.fontawesome.com/b4aa64dfea.js" crossorigin="anonymous"></script>  
+                  
+                  
+<!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->                         
+                   
+                    
+</head>
+
+<body>
+     
+  <? include "../common/sub_head.html" ?>
+  <? $_GET['num']=3;
+      include "common/sub_nav.html"; 
+   ?>   
+    
+                        
+             
+                
+                                                   
+   <!-- 본문 콘텐츠 영역 -->                                   
+                                                       
+         <article id="content">
+            <div class="title_area">
+               <div class="lineMap">
+                   <span>Home</span> &gt; <span>가맹개설</span> &gt; <strong>신규 가맹점</strong>
+               </div> 
+               <h2>신규 가맹점</h2>    
+            </div>
+            
+            <div class="content_area">
+               
+                <div class="tabs"> 
+                    <ul>
+                        <li><a class="tab tab1" id="t1" href="javascript:void(0);"><img src="images/map1.jpg" alt=""><h3 class="hidden">서울 지역</h3></a></li>
+                        <li><a class="tab tab2" id="t2" href="javascript:void(0);"><img src="images/map2.jpg" alt=""><h3 class="hidden">경기 지역</h3></a></li>
+                        <li><a class="tab tab3" id="t3" href="javascript:void(0);"><img src="images/map3.jpg" alt=""><h3 class="hidden">영남 지역</h3></a></li>
+                        <li><a class="tab tab4" id="t4" href="javascript:void(0);"><img src="images/map4.jpg" alt=""><h3 class="hidden">그외 지역</h3></a></li>
+                    </ul> 
+                    
+                    <div class="contlist" id="contacts"></div>
+                   
+                    
+               </div>                                                        
+                                             
+            </div> 
+                    
+         </article>                                    
+                                                                                                                                                    
+   <? include "../common/sub_foot.html" ?>
+   <script src="js/data-json.js"></script>
+                   
+</body>
+
+</html>

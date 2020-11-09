@@ -1,0 +1,10 @@
+.content_area{padding: 0 50px 50px}
+
+.content_area p{font-family: 'Nanum Myeongjo', serif;
+                font-size: 22px; line-height: 2em; text-align: center; margin-bottom: 100px}
+
+.content_area ul{overflow: hidden}
+.content_area ul li{overflow: hidden; float: left; margin: 0 0 100px 50px}
+.content_area ul li span{display: block; text-align: center; margin-top: 20px}
+.content_area ul li img{height: 264px; transition: all .5s}
+.content_area ul li:hover img{transform: scale(1.1); opacity: 0.5}

@@ -1,0 +1,19 @@
+.content_area{padding: 0 100px 100px}
+
+.content_area ul{overflow: hidden; margin-bottom: 60px}
+.content_area li{float: left}
+.content_area li:hover a{opacity: 1}
+.content_area a{display: block; opacity: 0.4; transition: all .5s}
+
+.content_area div table{border-top: 1px solid #333; border-bottom: 1px solid #ccc; width: 1000px}
+
+.content_area div table thead tr{height: 50px; font-size: 20px; font-family: 'Nanum Gothic', sans-serif; text-align: left}
+.content_area div table thead tr th{padding-left: 37px}
+
+.content_area div table tbody tr{height: 50px; border-bottom: 1px solid #ccc}
+.content_area div table tbody th{border-right: 1px solid #ccc; width: 150px}
+.content_area div table tbody td{padding-left: 50px}
+
+
+.tabs .on{opacity: 1}
+

@@ -1,0 +1,12 @@
+.content_area{padding: 0 100px 60px}
+.content_area .video{width: 1000px; height: 600px; margin-bottom: 30px}
+.content_area p{font-size: 20px; font-weight: bold; margin-bottom: 60px}
+
+.content_area ul{overflow: hidden; margin-bottom: 80px}
+.content_area li{float: left; margin-left: 24px}
+.content_area img{margin-bottom: 20px}
+.content_area li span{display: block; text-align: center; font-size: 14px}
+
+.content_area p:last-child{font-weight: normal; font-size: 14px; text-align: center; margin-bottom: 0}
+.content_area p strong{color: #0079c2}
+.content_area p span{font-weight: bold}

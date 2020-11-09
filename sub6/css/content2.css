@@ -1,0 +1,14 @@
+.content_area{padding: 0 50px 50px}
+
+.content_area p:first-child{font-family: 'Nanum Myeongjo', serif; font-size: 22px; margin-bottom: 100px; text-align: center; line-height: 2em}
+
+.content_area ul{overflow: hidden}
+.content_area ul li{width: 550px; height: 440px; float: left; padding: 70px 50px; box-sizing: border-box; position: relative} 
+
+.content_area ul li h3{font-size: 34px; margin-bottom: 24px; font-family: 'Nanum Gothic', sans-serif}
+
+.content_area ul li span{display: block; margin-bottom: 24px; font-size: 14px; line-height: 1.5em}
+
+.content_area ul li p{line-height: 1.5em; margin-bottom: 10px}
+
+.content_area ul img{border-radius: 50px; position: absolute; top: 0; right: 50px}

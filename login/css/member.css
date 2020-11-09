@@ -1,0 +1,98 @@
+#content{width: 500px; margin: 0 auto; padding: 100px 0 50px}
+
+#content .Header{overflow: hidden; margin-bottom: 40px}    
+#content .Header h1{float: left}
+#content .Header h1 a{display: block; text-align: center}
+#content .Header h2{float: left; margin: 10px 0 0 30px; font-size: 34px; font-family: 'Nanum Myeongjo', serif; font-weight: 400}  
+
+
+.id_pw_input{}
+.id_pw_input li{margin-bottom: 20px}
+.id_pw_input li input{width: 473px;
+    font-family: 'Nanum Gothic', sans-serif;
+    border: 1px solid #cfcfd6;
+    border-radius: 5px;
+    padding: 5px 5px 5px 20px;
+    height: 40px;
+    font-size: 16px;
+}
+
+
+.login_button{
+    margin-bottom: 50px;
+    overflow: hidden
+}
+.login_button input{
+    cursor: pointer;
+    background: none;
+    color: #0079c2;
+    padding: 5px;
+    height: 50px;
+    font-size: 18px;
+    border: 1px solid #0079c2;
+    width: 240px;
+    margin-right: 20px;
+    float: left;
+    font-weight: 700;
+    border-radius: 5px
+}
+
+.login_button input:hover{
+    background: #0079c2;
+    color: #fff 
+}
+
+
+
+
+
+.login_button a{
+    background: #bbb;
+    color: #fff;
+    padding: 14.5px 5px;
+    font-size: 16px;
+    border: none;
+    width: 230px;
+    float: left;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    font-weight: 700;
+    border-radius: 5px
+}
+
+
+.join_button{overflow: hidden; margin-bottom: 30px}
+.join_button p{float: left; padding-top: 6px}
+.join_button a{   
+    right: 0;
+    top: 50px;
+    display: block;
+    background: #0079c2;
+    color: #fff;
+    padding: 14px 5px;
+    font-size: 16px;
+    border: none;
+    width: 100px;
+    float: right;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 5px
+}
+
+#login_form p{font-family: 'Nanum Gothic', sans-serif}
+.last{font-size: 14px; text-align: center}
+.last strong{color: #0079c2}
+.last span{font-weight: 700}
+
+
+
+
+
+
+
+
+
+
+

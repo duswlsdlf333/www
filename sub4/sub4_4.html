@@ -1,0 +1,106 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>DAVICH-가맹 개설안내</title> 
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="bootstrap.min.css">
+        
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/sub4common.css">
+    <link rel="stylesheet" href="css/content4.css">
+    
+    
+    <script src="../common/js/prefixfree.min.js"></script>   
+    <script src="https://kit.fontawesome.com/b4aa64dfea.js" crossorigin="anonymous"></script>  
+                  
+                  
+<!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->                         
+                   
+                    
+</head>
+
+<body>
+     
+  <? include "../common/sub_head.html" ?>
+  <? $_GET['num']=4;
+      include "common/sub_nav.html"; 
+   ?>  
+    
+                
+                                                   
+   <!-- 본문 콘텐츠 영역 -->                                   
+                                                       
+         <article id="content">
+            <div class="title_area">
+               <div class="lineMap">
+                   <span>Home</span> &gt; <span>가맹개설</span> &gt; <strong>가맹 문의</strong>
+               </div> 
+               <h2>가맹 문의</h2>    
+            </div>
+            
+            <div class="content_area">
+              
+         
+ <form name="sentMessage" id="contactForm" novalidate>
+    <div class="row control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>이름</label>
+            <input type="text" class="form-control" placeholder="이름" id="name" required data-validation-required-message="이름을 입력해주세요.">
+            <p class="help-block text-danger"></p>
+        </div>
+    </div>
+    <div class="row control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>이메일 주소</label>
+            <input type="email" class="form-control" placeholder="이메일 주소" id="email" required data-validation-required-message="이메일 주소를 입력해주세요.">
+            <p class="help-block text-danger"></p>
+        </div>
+    </div>
+    <div class="row control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>연락처</label>
+            <input type="tel" class="form-control" placeholder="연락처" id="phone" required data-validation-required-message="연락처를 입력해주세요.">
+            <p class="help-block text-danger"></p>
+        </div>
+    </div>
+    <div class="row control-group">
+        <div class="form-group col-xs-12 floating-label-form-group controls">
+            <label>가맹 문의</label>
+            <textarea rows="5" class="form-control" placeholder="가맹 문의" id="message" required data-validation-required-message="문의할 내용을 적어주세요."></textarea>
+            <p class="help-block text-danger"></p>
+        </div>
+    </div>
+    <br>
+    <div id="success"></div>
+    <div class="row">
+        <div class="form-group col-xs-12 send">
+            <button type="submit" class="btn btn-success btn-lg">보내기</button>
+        </div>
+    </div>
+</form>                                                      
+                                        
+                
+                                                                                       
+            </div> 
+                    
+         </article>                                                                                                                                                                               
+   <? include "../common/sub_foot.html" ?>
+   
+  <script src="bootstrap.min.js"></script>
+  <script src="contact_me.js"></script>
+  <script src="jqBootstrapValidation.js"></script>
+            
+</body>
+
+</html>

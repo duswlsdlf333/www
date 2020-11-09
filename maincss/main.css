@@ -1,0 +1,181 @@
+.visual{position: relative; width: 2000px; top: 0; left: 50%; margin: 131px 0 0 -1000px; height: 800px; overflow: hidden}
+
+.visual .gallery{position:relative; overflow:hidden; width:8000px;
+          height:800px;left:0; top:0}
+.visual .gallery ul li{float:left; list-style:none; position: relative}
+
+.visual .dock{width:221px; position:absolute; left:50%; top:750px; overflow: hidden; margin-left: -105px}
+
+.visual .dock span.mbutton{ margin-right:15px; cursor:pointer; display:block;
+           float:left;  width:24px; height:22px;
+   background: #fff; border-radius:12px;
+  transition: all .5s}
+.visual .dock .ps{ margin-right:15px; cursor:pointer; 
+    display:block; float:left; width:24px; height:22px;
+    background:url(../images/stop.png)}
+
+
+.visual .gallery li p{font-family: 'Nanum Myeongjo', serif; font-size: 50px; 
+    line-height: 2em; position: absolute}
+
+.visual .gallery li:nth-of-type(1) p{top: 150px; left: 500px; font-size: 40px}
+.visual .gallery li:nth-of-type(2) p{top: 250px; left: 500px}
+.visual .gallery li:nth-of-type(3) p{top: 300px; left: 1150px}
+.visual .gallery li:nth-of-type(4) p{bottom: 150px; left: 1100px; text-align: center; line-height: 1.5em; color: #fff}
+
+.visual .gallery li:nth-of-type(1) p span{font-weight: 700; font-size: 50px}
+.visual .gallery li:nth-of-type(2) p span{margin-left: 290px}
+
+
+
+
+
+#content{overflow: hidden; margin: 0 auto}
+
+#content .content_ideology{width: 1200px; overflow: hidden; margin: 90px auto 150px}
+#content .title{text-align: center; position: relative}
+#content .title h3{font-family: 'Nanum Gothic', sans-serif;
+                font-size: 50px; font-weight: 700; margin-bottom: 30px}
+#content .title p{font-family: 'Nanum Myeongjo', serif;
+                font-size: 26px; margin-bottom: 80px}
+
+
+#content .ideo{width: 333px; height: 350px;float: left; overflow: hidden; position:relative;font-family: 'Nanum Gothic', sans-serif;}
+#content .ideo img{transition: all .5s}
+#content .ideo:hover img{transform: scale(1.2)}
+#content .ideo div{width: 333px; height: 350px; background: rgba(0,0,0,.6); position: absolute;left:0; top:250px; overflow: hidden; transition: all .5s}
+#content .ideo:hover div{top:0}
+
+#content .ideo div a{display: block; width: 100%; height:100%; color: #fff}
+#content .ideo div h4{font-size: 50px;font-weight: 400; text-align: center; margin: 20px 0 100px;transition: all .5s}
+#content .ideo:hover h4{margin-top: 70px; color: #2aa4d7}
+#content .ideo div p{font-size: 18px; text-align: center; line-height: 1.5em}
+#content .ideo_vi{margin-left: 50px;}   
+#content .ideo_mi{margin: 0 50px;}
+#content .ideo_va{margin-right: 50px;}
+
+
+
+
+
+#content .content_product{width: 1200px; margin: 0 auto}
+#content .content_product h3{font-family: 'Nanum Gothic', sans-serif;
+                font-size: 50px; font-weight: 700; text-align: center;
+                margin-bottom: 50px}
+#content .content_product .tab_menu{width: 600px;  
+    overflow: hidden; margin: 0 auto}
+#content .content_product .tab_menu li::after{content: ""; display: block; width: 2px; height: 24px; background: #333; position: absolute; top: 4px; left: 197px}
+#content .content_product .tab_menu li:last-of-type::after{content: ""; display: block; width: 0; height: 0}
+#content .content_product .tab_menu li{float: left; 
+    font-family: 'Nanum Gothic', sans-serif; font-size: 26px; width: 33.3%;
+    height: 100px; text-align: center;position: relative}
+#content .content_product .tab_menu li:hover a{display: block; color: #0079c2; font-weight: bold}
+
+#content .content_product .contlist{overflow: hidden; 
+    margin-bottom: 180px}
+#content .content_product .contlist li{float: left; width: 238px; 
+    margin-left: 50px}
+#content .content_product .contlist img{transition: all .5s}
+#content .content_product .contlist li:hover img{transform: scale(0.8)}
+#content .content_product .contlist span{display: block; margin-top: 30px; text-align: center; line-height: 1.5em}
+
+#content .content_product .contlist{display: none}
+#content .content_product .on{color: #0079c2; font-weight: bold}
+
+
+
+#content .content_education{background: #0079c2}
+
+#content .content_education .edu_inner{width: 1200px; padding: 78px 0 78px 50px; margin: 0 auto 180px; position: relative}
+
+#content .content_education .good_person{position: absolute; right: 30px;
+    top: -65px}
+
+
+#content .content_education p{font-family: 'Nanum Gothic', sans-serif;
+                font-size: 26px; color: #fff}
+#content .content_education h3{font-family: 'Nanum Gothic', sans-serif;
+                font-size: 50px; font-weight: 700; color: #fff; margin: 18px 0 78px 90px}
+#content .content_education li{overflow: hidden; margin-bottom: 60px}
+#content .content_education li:nth-of-type(3){margin-bottom: 0}
+#content .content_education img{float: left; margin-right: 54px; 
+transition: all .3s}
+#content .content_education li:hover img{transform: scale(0.8)}
+#content .content_education dl{color: #fff}
+#content .content_education dt{font-family: 'Nanum Gothic', sans-serif; font-size: 24px;
+    margin-bottom: 10px}
+#content .content_education dd{line-height: 1.5em}
+
+
+
+
+#content .content_guide{overflow: hidden; background: #e7e7e7;
+    width: 1190px; height: 355px; position: relative; overflow: hidden;
+    box-shadow: 2px 2px 10px 4px #ccc; margin: 0 auto 180px}
+#content .content_guide h3{font-family: 'Nanum Gothic', sans-serif;
+                font-size: 30px; font-weight: 700; color: #0079c2;
+                margin-bottom: 48px}
+#content .content_guide .more{position: absolute; top: 5px; left: 452px}
+#content .content_guide i{font-size: 18px; color: #999}
+
+#content .content_guide .col1{width: 74%; float: left}
+#content .content_guide .col2{width: 20%; float: left; padding: 0 0 24px 20px}
+#content .content_guide .clear{clear: both}
+
+
+
+#content .content_news{width: 451px; float: left; position: relative;
+    margin: 60px 59px 60px 90px}
+#content .content_news::after{content: ""; display: block; width: 4px; 
+    height: 236px; background: #ccc; position: absolute; top: 6px; left: 508px}
+
+#content .content_notice{width: 441px; float: right; position: relative;
+    margin: 60px 90px 60px 59px}
+
+
+#content .content_affiliated{width: 1200px; margin: 0 auto 180px}
+#content .content_affiliated i{color: #0079c2; font-size: 50px}
+#content .content_affiliated .prev_tab{position: absolute; top: 0; left: 50px}
+#content .content_affiliated .next_tab{position: absolute; top: 0; right: 50px}
+
+
+#content .content_affiliated ul{overflow: hidden}
+#content .content_affiliated li{width: 333px; float: left; margin-left: 50px}
+#content .content_affiliated ul img{transition: all .5s}
+#content .content_affiliated ul li:hover img{transform: scale(1.1)}
+
+#content .content_affiliated ul span{display: block; text-align: center; font-size: 20px; font-weight: bold; margin-top: 30px}
+
+
+#content .content_affiliated .gallery_box_container{height: 273px; overflow: hidden}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,17 @@
+.content_area{padding: 0 50px 100px; font-family: 'Nanum Gothic', sans-serif}
+
+.content_area form{width: 50%; margin: 0 auto}
+
+.btn-success{display: inline;
+    color: #0079c2;
+    width: 100px;
+    padding: 10px;    
+    border-radius: 5px;
+    border: 1px solid #0079c2;
+    background: none; margin: 0 253px; font-size: 16px} 
+
+.form-group{}
+
+.btn-success:hover{background: #0079c2; color: #fff}
+
+label{margin-bottom: 10px}

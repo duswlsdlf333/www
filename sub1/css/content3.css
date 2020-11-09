@@ -1,0 +1,69 @@
+.content_area{position:relative}
+.content_area::after{content: ''; width: 2px; height: 3300px;
+   background: #0079c2; position: absolute; left:50%; margin-left: -1px; top: 0; z-index: -1}
+
+
+.content_area .slideMenu{background: #0079c2; margin-bottom: 100px; overflow: hidden; border-radius: 10px; height: 63px}
+.content_area div ul{overflow: hidden; margin: 20px 80px}
+.content_area div li{float: left; width: 33%; text-align: center}
+.content_area div li a{display: block; font-size: 20px; color: #fff}
+.content_area div li:hover a{font-weight: bold}
+
+.spy{font-weight: bold}
+
+
+.content_area section{height: 1000px}
+.content_area section h3{width: 110px; height: 105px; background: #0079c2; 
+    border-radius: 100px; font-family: 'Nanum Gothic', sans-serif; 
+    font-size: 30px; color: #fff; line-height: 1.2em; padding: 31px 0 0 26px; margin: 0 0 50px 532px}
+
+.content_area section dl{width: 600px}
+.content_area section dl dt{font-family: 'Nanum Gothic', sans-serif; font-size: 40px; font-weight: 700; margin-bottom: 30px}
+.content_area section dl dt span{font-size: 30px}
+.content_area section dl dd{margin-bottom: 15px; line-height: 1.5em}
+.content_area section dl dd span{font-weight: bold; margin-right: 10px}
+.content_area section dl dd .indent{margin-left: 32px; font-weight: normal}
+
+.content_area section dl:nth-of-type(1){text-align: right; position: relative; top: 0; left: -50px}
+.content_area section dl:nth-of-type(2){text-align: left; position: relative;
+top: -185px; left: 650px}
+.content_area section dl:nth-of-type(3){text-align: right; position: relative;
+top: -160px ; left: -50px}
+.content_area section dl:nth-of-type(4){text-align: left; position: relative;
+top: -448px; left: 650px}
+
+
+.content_area .con2{height: 970px}
+
+.content_area .con2 dl:nth-of-type(2){top: -200px; left: 650px}
+.content_area .con2 dl:nth-of-type(4){top: -325px; left: 650px}
+
+.content_area .con3{height: 930px}
+
+.content_area .con3 dl:nth-of-type(2){top: -200px; left: 650px}
+.content_area .con3 dl:nth-of-type(4){top: -320px; left: 650px}
+
+
+
+.navOn{position: fixed; width: 100%; z-index:100; left:0; top: 0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

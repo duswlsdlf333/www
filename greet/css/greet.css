@@ -1,0 +1,323 @@
+.announce #list_search{overflow: hidden; font-family: 'Nanum Gothic', sans-serif; font-weight: 700; margin: 5px 0}
+.announce #list_search1{margin-top: 2px; float: left}
+
+.announce #list_search .list_search_group{float: right; overflow: hidden}
+.announce #list_search .list_search_group div{float: left}
+.announce #list_search #list_search3{}
+.announce #list_search #list_search4{margin-left: 3px}
+.announce #list_search #list_search4 input{padding: 5px}
+.announce #list_search #list_search5{margin-left: 5px; margin-top: 1px}
+.announce #list_search #list_search5 input{padding: 3px 10px; background: none; border: 1px solid #0079c2; color: #0079c2; border-radius: 2px}
+
+.announce #list_search select{padding: 5px}
+
+
+
+#list_top_title{
+    height: 20px;
+    padding: 15px 0;
+    font-weight: 700;    
+    background-color: #0079c2;
+    margin: 10px 0 3px;
+    color: #fff;
+    border-radius: 5px
+}
+
+#list_top_title ul{overflow: hidden}
+#list_top_title ul li{float: left}
+
+#list_title1{text-align: center; width: 100px}
+#list_title2{text-align: center; width: 600px}
+#list_title3{text-align: center; width: 160px}
+#list_title4{text-align: center; width: 140px}
+#list_title5{text-align: center; width: 100px}
+
+
+
+#list_item{overflow: hidden; padding: 15px 0; margin-top: 2px; height: 18px; border-bottom: solid 1px #eeeeee}
+#list_item div{float: left}
+#list_item1{text-align: center; width: 100px}
+#list_item2{text-align: center; width: 600px}
+#list_item3{text-align: center; width: 160px}
+#list_item4{text-align: center; width: 140px}
+#list_item5{text-align: center; width: 100px}
+
+
+#page_button{font-family: 'Nanum Gothic', sans-serif; overflow: hidden; padding-top: 30px}
+#page_num{float: left; width: 80%; text-align: center; padding-top: 6px}
+
+#button{float: right; overflow: hidden}
+#button a{display: block; 
+    float: left;
+    width: 70px;    
+    border-radius: 5px;     
+    text-align: center;
+    color: #0079c2;
+    padding: 7px 2px;
+    margin-left: 10px;
+    border: 1px solid #0079c2
+}
+
+
+
+
+.content_area{padding: 0 50px 100px; font-family: 'Nanum Gothic', sans-serif}
+.content_area h3{       
+    color: #fff;
+    font-size: 20px;    
+    text-align: center;    
+    border-radius: 5px;   
+    background-color: #0079c2;
+    padding: 10px 0}
+
+#write_form {margin: 10px 0 20px}
+
+.write_line {
+    width: 99%;
+    border-bottom: solid 1px #cccccc}
+
+#write_form #write_row1 {
+    width: 99%;
+    height: 50px;
+    margin: 2px 0 2px 0;
+    overflow: hidden
+}
+
+#write_form .col1 {
+    float: left;
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    background-color: #eeeeee;
+}
+#write_form #write_row1 .col2 {
+    float: left;
+    margin-top: 14px;
+}
+#write_form #write_row1 .col3 {
+    float: right;
+    margin-top: 14px;
+    margin-right: 14px;
+}
+
+
+#write_form #write_row2 {
+    width: 99%;
+    height: 50px;
+    margin: 2px 0 2px 0;
+    overflow: hidden
+}
+
+#write_form .col1 {
+    float: left;
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    background-color: #eeeeee;
+}
+
+#write_form .col2 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+
+#write_row2 .col2 input {
+    width: 900px;
+    height: 42px;
+    border: solid 1px #cccccc;
+}
+
+
+
+
+#write_form #write_row3 .col1 {
+    height: 116px;
+    padding-top: 120px;
+}
+
+#write_form .col2 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+
+#write_form #write_row3 {
+    width: 99%;
+    height: 251px;
+    margin: 2px 0 2px 0;
+    overflow: hidden
+}
+
+
+#write_row3 .col2 textarea {
+    width: 900px;
+    height: 240px;
+    border: solid 1px #cccccc;
+}
+
+
+#write_button {
+    margin-top: 15px;
+    width: 260px;
+    margin: 0 auto;
+    text-align: center;
+    overflow: hidden
+}
+
+#write_button input {
+    display: block;
+    float: right;
+    color: #fff;
+    width: 120px;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    background: #0079c2;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    text-align: center
+}
+
+#write_button a {
+    display: block;
+    float: right;
+    color: #0079c2;
+    width: 100px;
+    padding: 8.5px 9px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #0079c2    
+}
+
+
+
+#view_title {
+    height: 20px;
+    padding: 15px 0 15px 2%;
+    font-weight: 700;    
+    background-color: #0079c2;
+    margin: 10px 0 3px;
+    color: #fff;
+    border-radius: 5px;
+    overflow: hidden}
+
+
+#view_title1 {
+    float: left;
+    width: 70%;
+}
+#view_title2 {
+    float: left;
+    width: 28%;
+    text-align: right;
+}
+
+
+#view_content {
+    width: 96%;
+    min-height: 200px;
+    padding: 15px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    line-height: 150%;
+    border-bottom: solid 1px #cccccc;
+    text-align: center
+}
+
+#view_button {
+    margin: 0 auto;
+    width: 531px;   
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    overflow: hidden
+}
+#view_button a {
+    display: inline;
+    float: left;
+    color: #0079c2;
+    width: 100px;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #0079c2
+}
+
+
+#write_form #write_row4 {
+    width: 99%;
+    height: 50px;
+    margin: 2px 0 2px 0;
+}
+
+#write_form .col1 {
+    float: left;
+    width: 120px;
+    text-align: center;
+    padding: 15px;
+    background-color: #eeeeee;
+}
+#write_form .col2 {
+    float: left;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+#write_row4 .col2 input {
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+    border: solid 1px #cccccc;
+}
+
+
+#write_form #write_row5 {
+    width: 99%;
+    height: 50px;
+    margin: 2px 0 2px 0;
+}
+
+#write_row5 .col2 input {
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+    border: solid 1px #cccccc;
+}
+
+
+#write_form #write_row6 {
+    width: 99%;
+    height: 50px;
+    margin: 2px 0 2px 0;
+}
+
+
+#write_row6 .col2 input {
+    width: 300px;
+    height: 25px;
+    margin: 10px;
+    border: solid 1px #cccccc;
+}
+
+.delete_ok{margin: 0 0 10px 170px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

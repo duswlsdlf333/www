@@ -1,0 +1,42 @@
+.content_area{padding: 0 50px 150px}
+
+.content_area section{margin-bottom: 100px}
+
+.content_area section h3{font-family: 'Nanum Gothic', sans-serif; font-size: 36px; text-align: center; margin-bottom: 50px}
+
+.content_area section:first-of-type table{width: 1100px; text-align: center; border-top: 1px solid #333; border-bottom: 1px solid #ccc}
+.content_area section:first-of-type table th{border-right: 1px solid #ccc}
+.content_area section:first-of-type table thead th{height: 60px; font-size: 18px}
+.content_area section:first-of-type table thead tr th:nth-child(1){width: 180px}
+.content_area section:first-of-type table thead tr th:nth-child(2){width: 220px}
+.content_area section:first-of-type table thead tr th:nth-child(4){border-right: none}
+
+.content_area section:first-of-type table tbody th{}
+.content_area section:first-of-type table tbody tr{height: 60px}
+.content_area section:first-of-type table tbody tr:nth-of-type(2){border-top: 1px solid #ccc; border-bottom: 1px solid #ccc}
+.content_area section:first-of-type table td{border-right: 1px solid #ccc}
+.content_area section:first-of-type table tr td:last-child{border-right: none}
+.content_area section:first-of-type table tr:nth-of-type(3) td{font-size: 20px; font-weight: bold}
+.content_area section:first-of-type table tr:nth-of-type(3){height: 80px}
+.content_area section:first-of-type table span{color: #0079c2; font-size: 26px}
+
+
+
+
+
+
+.content_area section ul{overflow: hidden; margin: 0 50px}
+.content_area section ul li{float: left; width: 33%; height: 300px}
+.content_area section ul img{display: block; margin: 0 auto}
+.content_area section ul p{font-size: 18px; text-align: center; margin-top: 20px; line-height: 1.5em}
+.content_area section ul p span{display: block; font-size: 20px; font-weight: bold; margin-top: 20px}
+
+
+
+
+.content_area .team{width: 1000px; height: 667px; background: url(../images/consulting.jpg); margin: 0 auto; overflow: hidden; border-radius: 20px}
+.content_area section div{width: 700px; height: 520px; margin: 43px auto 0 ; background: rgba(255, 255, 255, .8); padding: 30px 50px; border-radius: 20px}
+
+.content_area .team dl dt{font-size: 20px; font-weight: bold; margin-bottom: 10px}
+.content_area .team dl dd{text-align: justify; line-height: 1.5em; margin-bottom: 20px}
+.content_area .team dl dd:nth-of-type(4){margin-bottom: 0}

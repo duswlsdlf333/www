@@ -1,0 +1,77 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>DAVICH-홍보센터</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    
+        
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/sub5common.css">
+    <link rel="stylesheet" href="css/content4.css">
+    
+    
+    <script src="../common/js/prefixfree.min.js"></script>   
+    <script src="https://kit.fontawesome.com/b4aa64dfea.js" crossorigin="anonymous"></script>  
+                  
+                  
+<!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->                         
+                   
+                    
+</head>
+
+<body>
+     
+  <? include "../common/sub_head.html" ?>
+  <? $_GET['num']=4;
+      include "common/sub_nav.html"; 
+   ?>  
+    
+   
+                                                   
+   <!-- 본문 콘텐츠 영역 -->                                   
+                                                       
+         <article id="content">
+            <div class="title_area">
+               <div class="lineMap">
+                   <span>Home</span> &gt; <span>홍보센터</span> &gt; <strong>홍보영상</strong>
+               </div> 
+               <h2>홍보영상</h2>    
+            </div>
+            
+            <div class="content_area">
+              
+            <div class="video"> 
+                <iframe title="advertisement" width="1000" height="600" name="ifr" src="https://www.youtube.com/embed/fhIorapy7zw" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>             
+            </div>
+            <p>다비치CF-전문검사편</p>
+            
+            <ul>
+                <li><a href="https://www.youtube.com/embed/fhIorapy7zw" target="ifr"><img src="images/video1.jpg" alt=""><span>다비치CF-전문검사편</span></a></li>
+                <li><a href="https://www.youtube.com/embed/4I-ZnYHzgHI" target="ifr"><img src="images/video2.jpg" alt=""><span>다비치 안경 광고 CF-동안렌즈 편</span></a></li> 
+                <li><a href="https://www.youtube.com/embed/clForRKIsIY" target="ifr"><img src="images/video3.jpg" alt=""><span>다비치 안경 광고 CF-배터리 편</span></a></li>
+                <li><a href="https://www.youtube.com/embed/VQXTFBF_aew" target="ifr"><img src="images/video4.jpg" alt=""><span>다비치 안경 광고 CF-다비치맨 편</span></a></li>
+            </ul>
+           
+            <p><strong>"다비치"</strong>는 <span>세상을 맑고 밝게 다 비춘다</span>는 순 우리말로 소외된 어려운 이웃까지 맑고 밝게 다 비춘다는 의미로 다비치입니다.</p>
+              
+            </div> 
+                    
+         </article>                                                                                                                                                                               
+<? include "../common/sub_foot.html" ?>           
+            
+            
+</body>
+
+</html>

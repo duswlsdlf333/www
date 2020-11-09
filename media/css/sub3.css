@@ -1,0 +1,99 @@
+.imgBox #imgBG3{
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100
+}
+
+
+.imgBox h2{
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    transform: translateX(-50%);
+    text-align: center;   
+    color: #fff;    
+    text-shadow: 1px 1px 5px rgba(0,0,0,.8);
+    font-size: 80px;
+    font-weight: 700
+}
+
+#content{background: rgba(0, 0, 0, .7); width: auto}
+
+h4{color: #fff; font-size: 30px; margin-bottom: 30px; line-height: 1.5em}
+
+.ost{color: #fff}
+.ost ul{overflow: hidden; padding: 0 2%}
+.ost li{float: left; width: 46%; margin: 0 2%}
+
+
+.subTitle {padding: 2% 4% 0}
+
+.subTitle:after {left: 4%}
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    .imgBox h2{font-size: 70px}
+    .subTitle {    
+    font-size: 40px} 
+    h4{font-size: 28px; margin-bottom: 20px}
+    .imgPart {    
+    margin-bottom: 20px}
+    .clip_part .contentArea p {
+        font-size: 18px
+    }
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    .clip_part .contentArea p {
+        font-size: 16px
+    }
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    .imgBox h2{font-size: 60px}
+    .subTitle {    
+    font-size: 34px}   
+    h4{font-size: 24px}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    .imgBox h2{font-size: 50px}
+    .subTitle {   
+    font-size: 30px} 
+    h4{font-size: 20px}
+    
+    .ost ul li{float: none; width: auto}    
+    
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) { 
+    .clip_part .playBnt {
+        width: 95px;
+        height: 95px;
+        margin: -48px 0 0 -48px
+    }
+    .clip_part .contentArea {
+        width: auto
+    }
+}
+
+
+
+
+
+
+
+
+

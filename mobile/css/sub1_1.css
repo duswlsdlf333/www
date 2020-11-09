@@ -1,0 +1,16 @@
+.main{margin: 40px 0; position: relative}
+.main img{width: 100%}
+.main div{width: 100%; position: absolute; top: 50%; left: 0; text-align: center; margin-top: -42px}
+.main div h3{color: #fff; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; margin: 10px 0}
+.main div p{color: #fff; font-family: 'Nanum Myeongjo', serif; line-height: 1.5em}
+
+#content h2{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; color: #0079c2; font-weight: 700; text-align: center; margin-bottom: 30px}
+
+#content div{padding: 0 2% 40px}
+#content div img{display: block; width: 203px; height: 279px; margin: 0 auto 20px}
+
+#content .con_title{font-family: 'Nanum Myeongjo', serif; font-weight: 700; font-size: 16px}
+#content p{line-height: 1.5em; margin-bottom: 14px}
+#content dl{}
+#content dt{font-family: 'Nanum Myeongjo', serif; font-weight: 700; font-size: 16px; margin-bottom: 10px}
+#content dd{line-height: 1.5em; text-align: justify; margin-bottom: 16px}

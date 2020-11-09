@@ -1,0 +1,40 @@
+.content_area{padding-bottom: 50px}
+
+.content_area .top_menu{padding: 0 100px; margin-bottom: 100px}
+.content_area .top_menu ul{overflow: hidden}
+.content_area .top_menu ul li{float: left; width: 33.3%; border: 1px solid #ccc; border-bottom: 1px solid #0079c2; text-align: center; font-family: 'Nanum Gothic', sans-serif;box-sizing: border-box}
+.content_area .top_menu ul li a{display: block; font-size: 20px; padding: 20px 0}
+
+
+
+
+.content_area .age{margin-bottom: 100px}
+.content_area .age ul{overflow: hidden; padding: 0 50px}
+.content_area .age ul li{float: left; margin: 0 0 100px 50px}
+
+.content_area .age p{text-align: center; font-size: 18px; margin-bottom: 18px}
+.content_area .age p i{color: #004181}
+
+
+.content_area .recommend{overflow: hidden; padding: 0 50px}
+.content_area .recommend p{font-family: 'Nanum Gothic', sans-serif; text-align: center; font-size: 28px; font-weight: 700; margin-bottom: 80px}
+.content_area .recommend div{position: relative; overflow: hidden; width: 300px; height: 300px; float: left; margin: 0 0 40px 50px}
+.content_area .recommend img{}
+.content_area .recommend dl{width: 300px; height: 300px; text-align: center; background: rgb(0,0,0,.7); position: absolute; top: 250px; left: 0; color: #fff; transition: all .5s}
+.content_area .recommend div:hover dl{top: 0}
+
+.content_area .recommend dl dt{margin: 16px 0 100px}
+.content_area .recommend div:hover dl dt{margin-top: 60px; color: #2aa4d7}
+.content_area .recommend dl dd{line-height: 2em}
+
+.tabs .on{background: #0079c2; color: #fff}
+.tabs .contlist{display: none}
+
+
+
+
+
+
+
+
+

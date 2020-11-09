@@ -1,0 +1,59 @@
+.content_area{padding: 0 50px 150px; overflow: hidden}
+
+.content_area section dl{margin: 0 50px 100px; overflow: hidden; position: relative}
+.content_area section:nth-of-type(2) dl{margin-bottom: 0}
+.content_area section dl dt{font-family: 'Nanum Gothic', sans-serif; 
+    font-size: 28px; font-weight: 700; color: #333; margin-bottom: 20px}
+.content_area section dl dd{font-size: 20px; margin-bottom: 30px; overflow: hidden; line-height: 1.5em; text-align: justify}
+.content_area section dl .ci_img{width: 800px; margin: 20px auto; border: 1px solid #ccc}
+.content_area section dl .ci_img2{width: 400px; margin: 40px 47px 0; border: 1px solid #ccc; float: left}
+.content_area section dl .ci_img3::after{content: "한글타입"; position: absolute; top: 120px; left: 45px; font-size: 14px}
+.content_area section dl .ci_img4::after{content: "영어타입"; position: absolute; top: 120px; left: 540px; font-size: 14px}
+
+.content_area section dl img{display: block; margin: 20px auto}
+
+.content_area section dl .sig1{float: left; margin-left: 180px}
+.content_area section dl .sig2{float: right; margin-right: 180px}
+
+
+.content_area section>div{overflow: hidden; margin: 20px 150px 40px}
+.content_area section div .color{overflow: hidden; float: left; width: 33%}
+
+.content_area section div .blue{width: 75px; height: 75px; background: url(../images/content4/blue.jpg)}
+.content_area section div .dark{width: 76px; height: 75px; background: url(../images/content4/dark.jpg)}
+.content_area section div .black{width: 76px; height: 75px; background: url(../images/content4/black.jpg)}
+
+
+.content_area section div .color div{float: left; margin-left: 20px}
+
+.content_area section div .color span{display: block; font-weight: bold; margin-bottom: 10px}
+
+
+
+.content_area section ul{}
+.content_area section ul li{border: 1px solid #ccc; width: 800px; margin: 20px auto}
+.content_area section ul li:nth-of-type(2){background: #0177c1}
+.content_area section ul li:nth-of-type(3){background: #231f20}
+.content_area section ul li img{display: block; margin: 20px auto}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

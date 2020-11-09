@@ -1,0 +1,49 @@
+ <script>
+
+window.onload=function(){
+        var num = '<?=$_GET['num']?>';
+        var nav1= document.getElementById('nav1'); 
+        var nav2= document.getElementById('nav2');
+        var nav3= document.getElementById('nav3');
+        var nav4= document.getElementById('nav4');
+        var nav5= document.getElementById('nav5');
+
+          if(num==1){
+              nav1.className='current';
+          }else if(num==2){
+              nav2.className='current';
+          }else if(num==3){
+              nav3.className='current';
+          }else if(num==4){
+              nav4.className='current';
+          }else if(num==5){
+              nav5.className='current';
+          }
+}
+
+</script>
+            
+
+  <!-- 메인 비주얼 영역 -->
+             
+       <div class="visual">
+           <img src="common/images/sub5_visual.jpg" alt="">
+           <div>
+               <h3>홍보센터</h3>
+               <p>세상을 밝게 비추는 다비치를 알려드립니다.</p>
+           </div>
+           
+           
+       </div>                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                     
+   <!-- 서브 네비 영역 -->
+                                     
+        <div class="subNav">
+                <ul>
+                    <li><a id="nav1" href="../../news/list.php">NEWS</a></li>
+                    <li><a id="nav2" href="../../greet/list.php">공지사항</a></li>
+                    <li><a id="nav3" href="sub5_3.html">EVENT</a></li>
+                    <li><a id="nav4" href="sub5_4.html">홍보영상</a></li>
+                    <li><a id="nav5" href="sub5_5.html">Q&amp;A</a></li>    
+                </ul>
+        </div>        

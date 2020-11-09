@@ -1,0 +1,40 @@
+<script>
+
+window.onload=function(){
+        var num = '<?=$_GET['num']?>';
+        var nav1= document.getElementById('nav1'); 
+        var nav2= document.getElementById('nav2');
+        var nav3= document.getElementById('nav3');
+        
+
+          if(num==1){
+              nav1.className='current';
+          }else if(num==2){
+              nav2.className='current';
+          }else if(num==3){
+              nav3.className='current';
+          }
+}
+
+</script>
+            
+
+   <!-- 메인 비주얼 영역 -->
+             
+       <div class="visual">
+           <img src="common/images/sub6_visual.jpg" alt="">
+           <div>
+               <h3>인재양성</h3>
+               <p>다비치 아카데미에서 여러분의 꿈을 현실로 만드세요.</p>
+           </div>
+       </div>                                                                                                                                                                                            
+                                                                                                                                                                                                                                                                                                     
+   <!-- 서브 네비 영역 -->
+                                     
+        <div class="subNav">
+                <ul>
+                    <li><a id="nav1" href="sub6_1.html">아카데미 소개</a></li>
+                    <li><a id="nav2" href="sub6_2.html">아카데미 활동</a></li>
+                    <li><a id="nav3" href="sub6_3.html">아카데미 교육과정</a></li>
+                </ul>
+        </div>                                          

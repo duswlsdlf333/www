@@ -1,0 +1,17 @@
+.content_area{padding: 40px 150px 50px; position: relative}
+
+.content_area .all{display: block; position: absolute; top: 0; right: 150px}
+
+.content_area li{border-top: 2px solid #0079c2; overflow: hidden; border-bottom: 3px dashed #ccc; margin-bottom: 40px}
+
+.content_area li dl{padding: 10px 0}
+
+.content_area li dt{font-size: 24px}
+
+.content_area li dl span{display: block; font-family: 'Nanum Gothic', sans-serif; color: #0079c2; font-size: 40px; font-weight: 700; float: left; margin: 10px 50px}
+
+.content_area li dl p{float: left; padding: 20px 0; line-height: 1.5em}
+
+.content_area li .trigger{display: block; overflow: hidden}
+
+.content_area li dd{font-size: 18px; overflow: hidden; display: none}

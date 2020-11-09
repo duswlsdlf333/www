@@ -1,0 +1,53 @@
+.content_area{padding: 0 50px 100px; font-family: 'Nanum Gothic', sans-serif}
+
+
+.content_area form{margin-bottom: 25px}
+
+
+
+.content_area #list_search{overflow: hidden; position: relative; width: 654px; margin: 0 auto}
+.content_area #list_search3{float: left}
+.content_area #list_search3 select{width: 280px;
+    height: 52px;    
+    font-size: 16px;    
+    border-color: #dcdcdc;
+    margin-right: 10px;
+    padding: 1px 2px}
+.content_area #list_search4{float: left}
+.content_area #list_search4 input{width: 360px;
+    background-color: #f6f6f6;
+    border-color: #f6f6f6;
+    height: 50px;    
+    font-size: 16px;
+    border: none}
+.content_area #list_search5{position: absolute; top: 12px; right: 10px}
+.content_area #list_search5 input{width: 26px}
+
+#list_content{padding-top: 50px; border-top: solid 1px #dcdcdc; overflow: hidden}
+
+#list_content #list_item{float: left; position: relative; width: 33.33%; margin-bottom: 30px; min-height: 300px}
+#list_item2{margin: 0 20px}
+#list_item2 a{display: block; position: relative}
+#list_item2 img{display: block; width: 326px; height: 180px; margin-bottom: 10px}
+#list_item2 .dat{font-size: 14px; color: #999}
+#list_item2 p{margin-top: 17px; font-size: 20px; line-height: 1.5em}
+#list_item2 .hit{position: absolute; top: 190px; right: 0; font-size: 20px;
+    color: #000}
+
+.clear{clear: both; margin-bottom: 30px}
+
+#page_button{text-align: center; position: relative}
+#page_button #page_num{margin-bottom: 20px}
+#page_button #button a{
+    display: inline;
+    color: #0079c2;
+    width: 100px;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #0079c2;
+    position: absolute; bottom:-10px; right: 0
+}
+
+
+

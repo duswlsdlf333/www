@@ -1,0 +1,39 @@
+.content_area{padding: 0 100px 50px}
+
+.content_area section{overflow: hidden; position: relative; margin-bottom: 100px}
+
+.content_area section h3{border-bottom: 2px solid #333; font-family: 'Nanum Myeongjo', serif; font-size: 36px; width: 1000px; margin-bottom: 60px; padding-bottom: 30px}
+
+.content_area section div{float: left}
+
+.content_area section div p{width: 480px; font-size: 18px; line-height: 2em; text-align: justify; margin-bottom: 10px}
+.content_area .sec1 div p::after{content:""; width: 1px; height: 330px; background: #999; position: absolute; top: 73px; left: 500px}
+
+.content_area .sec1 img{margin-bottom: 0}
+
+.content_area section div p::after{content:""; width: 1px; height: 400px; background: #999; position: absolute; top: 73px; left: 500px}
+
+.content_area section img{float: right; margin-bottom: 100px}
+
+.content_area .sec3 div p{font-size: 16px}
+.content_area .sec3 div p:first-of-type{font-size: 20px; margin-bottom: 30px; font-family: 'Nanum Myeongjo', serif; font-weight: 700; color: #0079c2}
+.content_area .sec3 div p::after{content:""; width: 1px; height: 700px; background: #999; position: absolute; top: 73px; left: 500px}
+
+.content_area .sec4 #contactUs{width: 480px; height: 300px; margin: 0 auto}
+.content_area .sec4 div:last-of-type{margin-left: 40px}
+.content_area .sec4 p{font-size: 16px; margin-bottom: 30px}
+.content_area .sec4 span{color: #0079c2; font-weight: bold}
+.content_area .sec4 p::after{content:""; width: 1px; height: 400px; background: #999; position: absolute; top: 73px; left: 500px}
+.content_area .sec4 dt{margin-bottom: 10px}
+.content_area .sec4 dd{margin-bottom: 30px}
+.content_area .sec4 i{color: #004181; margin-right: 10px}
+
+.content_area section{position: relative; top:0; opacity: 0; transition: all 1.2s}
+
+.content_area .sec1{right:-1000px}
+.content_area .sec2{right:-1000px}
+.content_area .sec3{right:-1000px}
+.content_area .sec4{right:-1000px}
+
+.content_area .boxMove{right:0; opacity: 1}
+

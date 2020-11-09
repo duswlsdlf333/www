@@ -1,0 +1,222 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>DAVICH-차별화 시스템</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    
+        
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/sub3common.css">
+    <link rel="stylesheet" href="css/content3.css">
+    
+    
+    <script src="../common/js/prefixfree.min.js"></script>   
+    <script src="https://kit.fontawesome.com/b4aa64dfea.js" crossorigin="anonymous"></script>  
+                  
+                  
+<!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->                         
+                   
+                    
+</head>
+
+<body>
+     
+   <? include "../common/sub_head.html" ?>
+   <? $_GET['num']=3;
+      include "common/sub_nav.html"; 
+   ?> 
+                                     
+             
+                
+                                                   
+   <!-- 본문 콘텐츠 영역 -->                                   
+                                                       
+         <article id="content">
+            <div class="title_area">
+               <div class="lineMap">
+                   <span>Home</span> &gt; <span>차별화 시스템</span> &gt; <strong>연령별 맞춤안경</strong>
+               </div> 
+               <h2>연령별 맞춤안경</h2>    
+            </div>
+            
+            <div class="content_area">
+               
+              <div class="tabs"> 
+                <div class="top_menu">
+                    <ul>
+                        <li><a class="tab tab1" href="javascript:void(0);">10대</a></li>
+                        <li><a class="tab tab2" href="javascript:void(0);">20~30대</a></li>
+                        <li><a class="tab tab3" href="javascript:void(0);">40대 이상</a></li>
+                    </ul>
+                </div> 
+              
+             <div class="contlist">                   
+                <div class="age">
+                    <ul>
+                        <li><img src="images/teenage1.png" alt=""></li>
+                        <li><img src="images/teenage2.png" alt=""></li>
+                        <li><img src="images/teenage3.png" alt=""></li>
+                    </ul>
+
+                    <p><i class="far fa-check-circle"></i> 실내에서 독서를 하거나, 온라인 강의를 듣는 <strong>근거리 작업</strong>이 많아, 눈이 쉽게 피곤함을 느낌</p>
+                    <p><i class="far fa-check-circle"></i> 스마트폰, PC 등의 사용으로 인하여 <strong>블루라이트(청색광)에 많이 노출</strong>되어 눈의 피로나 두통 호소</p>     <p><i class="far fa-check-circle"></i> 읽기 속도가 느려서 읽기 능력이 조금 떨어지신 분</p>
+                </div> 
+                
+                <div class="recommend">
+                    
+                    <p>10대 추천상품</p>
+                    
+                    <div>
+                       <img src="images/recommend1.jpg" alt="">
+                       <dl>
+                           <dt>눈의 피로 감소 기능성 렌즈</dt>
+                           <dd>눈의 안구운동 기능을 보완해 주어,<br>피곤한 눈을 편안하게 풀어주는 렌즈</dd>
+                       </dl>
+                    </div>   
+                            
+                    <div>
+                       <img src="images/recommend2.jpg" alt="">
+                       <dl>
+                           <dt>근시 완화 렌즈</dt>
+                           <dd>선명한 원거리와 근거리 작업 시<br>편안하게 잘 볼 수 있도록 해주는 렌즈</dd>
+                       </dl>
+                    </div>   
+                            
+                    <div>
+                       <img src="images/recommend3.jpg" alt="">
+                       <dl>
+                           <dt>청색광 감소 렌즈</dt>
+                           <dd>태양광선, 인조조명, TV, 컴퓨터,<br>스마트폰 화면에서 많이 발생하는<br>청색광(블루라이트)을 감소시키는 렌즈</dd>
+                       </dl>
+                    </div>         
+                        
+                    <div>
+                       <img src="images/recommend4.jpg" alt="">
+                       <dl>
+                           <dt>내 눈에 맞는 색상 렌즈</dt>
+                           <dd>눈에 맞는 안경렌즈 색을 vcs 시스템<br>정밀 검사를 통해서 나만의 컬러를 입혀<br>시각적 불편함을 해결해주는 렌즈</dd>
+                       </dl>
+                    </div>  
+                        
+                </div>
+               </div>
+                
+              <div class="contlist">
+                <div class="age">
+                    <ul>
+                        <li><img src="images/young_man1.png" alt=""></li>
+                        <li><img src="images/young_man2.png" alt=""></li>
+                        <li><img src="images/young_man3.png" alt=""></li>
+                    </ul>
+
+                    <p><i class="far fa-check-circle"></i> 오랫동안 <strong>컴퓨터 및 서류 업무</strong>로 인한, 어깨 결림 및 두통 호소</p>
+                    <p><i class="far fa-check-circle"></i> <strong>스마트폰, PC </strong>등의 사용으로 인하여 청색광(블루라이트)에 많이 노출되어 눈의 피로나 두통 호소</p>     
+                    <p><i class="far fa-check-circle"></i> <strong>야외 레저 활동으로</strong> UV 차단 선글라스 착용</p>
+                    <p><i class="far fa-check-circle"></i> 읽기 속도가 느려서 읽기 능력이 조금 떨어지신 분</p>
+                </div> 
+                
+                <div class="recommend">
+                    
+                    <p>20~30대 추천상품</p>
+                    
+                    <div>
+                       <img src="images/recommend5.jpg" alt="">
+                       <dl>
+                           <dt>눈의 피로 감소 기능성 렌즈</dt>
+                           <dd>눈의 안구운동 기능을 보완해 주어,<br>피곤한 눈을 편안하게 풀어주는 렌즈</dd>
+                       </dl>
+                    </div>   
+                            
+                    <div>
+                       <img src="images/recommend6.jpg" alt="">
+                       <dl>
+                           <dt>변색 렌즈</dt>
+                           <dd>시간과 장소에 관계 없이 색상과 농도가<br>햇빛의 양에 따라 자유자제로 변하여,<br>이동시 편리하게 사용할 수 있는 렌즈</dd>
+                       </dl>
+                    </div>   
+                            
+                    <div>
+                       <img src="images/recommend3.jpg" alt="">
+                       <dl>
+                           <dt>청색광 감소 렌즈</dt>
+                           <dd>태양광선, 인조조명, TV, 컴퓨터,<br>스마트폰 화면에서 많이 발생하는<br>청색광(블루라이트)을 감소시키는 렌즈</dd>
+                       </dl>
+                    </div>         
+                        
+                    <div>
+                       <img src="images/recommend4.jpg" alt="">
+                       <dl>
+                           <dt>내 눈에 맞는 색상 렌즈</dt>
+                           <dd>눈에 맞는 안경렌즈 색을 vcs 시스템<br>정밀 검사를 통해서 나만의 컬러를 입혀<br>시각적 불편함을 해결해주는 렌즈</dd>
+                       </dl>
+                    </div>  
+                        
+                </div>                                       
+               </div>
+               
+             <div class="contlist">                                                                                  
+                <div class="age">
+                    <ul>
+                        <li><img src="images/old1.png" alt=""></li>
+                        <li><img src="images/old2.png" alt=""></li>
+                        <li><img src="images/old3.png" alt=""></li>
+                    </ul>
+
+                    <p><i class="far fa-check-circle"></i> <strong>43세 이상 노안</strong>으로 멀리 가까이를 한번에 다 볼 수 있는 렌즈 필요</p>
+                    <p><i class="far fa-check-circle"></i> <strong>TV 나 휴대폰</strong> 등의 사용으로 인하여 블루라이트(청색광)에 많이 노출되어 눈의 피로나 두통 호소</p>     
+                    <p><i class="far fa-check-circle"></i> 등산, 골프 등의 <strong>레저활동</strong> 시 어지러움 호소</p>
+                </div> 
+                
+                <div class="recommend">
+                    
+                    <p>40대 이상 추천상품</p>
+                    
+                    <div>
+                       <img src="images/recommend7.jpg" alt="">
+                       <dl>
+                           <dt>개인맞춤형 누진다초점렌즈</dt>
+                           <dd>멀리 가까이를 한번에 다 볼 수 있는<br>렌즈로, 본인의 라이프스타일에 따라<br>사무용, 활동성 등의 렌즈 선택 가능</dd>
+                       </dl>
+                    </div>   
+                            
+                    <div>
+                       <img src="images/recommend6.jpg" alt="">
+                       <dl>
+                           <dt>변색 렌즈</dt>
+                           <dd>시간과 장소에 관계 없이 색상과 농도가<br>햇빛의 양에 따라 자유자제로 변하여,<br>이동시 편리하게 사용할 수 있는 렌즈</dd>
+                       </dl>
+                    </div>   
+                            
+                    <div>
+                       <img src="images/recommend3.jpg" alt="">
+                       <dl>
+                           <dt>청색광 감소 렌즈</dt>
+                           <dd>태양광선, 인조조명, TV, 컴퓨터,<br>스마트폰 화면에서 많이 발생하는<br>청색광(블루라이트)을 감소시키는 렌즈</dd>
+                       </dl>
+                    </div> 
+                        
+                </div>                                        
+                 
+              </div>                                                     
+            </div> 
+           </div>         
+         </article>                                                                                                                                                                               
+    <? include "../common/sub_foot.html" ?>
+      
+    <script src="../sub3/js/tab.js"></script>              
+            
+</body>
+
+</html>

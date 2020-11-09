@@ -1,0 +1,26 @@
+.main{margin: 40px 0; position: relative}
+.main img{width: 100%}
+.main div{width: 100%; position: absolute; top: 50%; left: 0; text-align: center; margin-top: -42px}
+.main div h3{color: #fff; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; margin: 10px 0}
+.main div p{color: #fff; font-family: 'Nanum Myeongjo', serif; line-height: 1.5em}
+
+#content h2{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; color: #0079c2; font-weight: 700; text-align: center; margin-bottom: 30px}
+
+
+.content_area{position: relative; padding: 0 5% 40px}
+
+.content_area .all{display: block; position: absolute; top: -26px; right: 5%}
+
+.content_area li{border-top: 2px solid #0079c2; overflow: hidden; border-bottom: 3px dashed #ccc; margin-bottom: 16px}
+
+.content_area li dl{padding: 10px 0}
+
+.content_area li dt{font-size: 16px}
+
+.content_area li dl span{display: block; font-family: 'Nanum Gothic', sans-serif; color: #0079c2; font-size: 20px; font-weight: 700; float: left; margin: 5px 0 5px 5%}
+
+.content_area li dl p{float: left; padding: 20px 0 20px 5%; line-height: 1.5em}
+
+.content_area li .trigger{display: block; overflow: hidden}
+
+.content_area li dd{overflow: hidden; display: none}

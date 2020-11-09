@@ -1,0 +1,12 @@
+.content_area{padding: 0 100px 60px}
+.content_area p:first-child{font-family: 'Nanum Myeongjo', serif; font-size: 20px; text-align: center; line-height: 2em; margin-bottom: 80px}
+.content_area ul{overflow: hidden; margin-bottom: 80px}
+.content_area ul li{width: 128px; float: left; margin-left: 97px}
+.content_area ul img{display: block;margin: 0 auto 20px}
+.content_area ul span{display: block; text-align: center; font-weight: bold; color: #0079c2; margin-bottom: 10px}
+.content_area ul p{text-align: center}
+
+.content_area .point{font-weight: normal; font-size: 14px; text-align: center; margin-bottom: 0}
+.content_area .point strong{color: #0079c2}
+.content_area .point span{font-weight: bold}
+

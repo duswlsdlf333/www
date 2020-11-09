@@ -1,0 +1,147 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>DAVICH-기업소개</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    
+        
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/css/sub1common.css">
+    <link rel="stylesheet" href="css/content2.css">
+    
+    
+    <script src="../common/js/prefixfree.min.js"></script>   
+    <script src="https://kit.fontawesome.com/b4aa64dfea.js" crossorigin="anonymous"></script>
+   
+                  
+<!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->                         
+                   
+                    
+</head>
+
+<body>
+     
+  <? include "../common/sub_head.html" ?>
+  <? $_GET['num']=2;
+      include "common/sub_nav.html"; 
+  ?>  
+   
+                                                   
+   <!-- 본문 콘텐츠 영역 -->                                   
+                                                       
+         <article id="content">
+            <div class="title_area">
+               <div class="lineMap">
+                   <span>Home</span> &gt; <span>기업소개</span> &gt; <strong>경영이념</strong>
+               </div> 
+               <h2>경영이념</h2>    
+            </div>
+            
+            
+             <div class="content_area">
+              
+              
+              <div class="tabs">
+              
+                <p>2030 World Best, Davich<br>인류 행복과 고객 감동 실현</p>
+                           
+                <ul>
+                    <li><a id="viv1" class="tab tab1" href="javascript:void(0);">VISION &#38; MISSION</a> 
+                    </li>
+                    <li><a id="viv2" class="tab tab2" href="javascript:void(0);">VALUE</a>
+                    </li>
+                </ul>
+               
+               <div id="tab1" class="contlist">
+                <section class="sub_vision">                   
+                   <img src="images/content2/sub_vision.jpg" alt="">
+                   
+                   <div>
+                        <h3>VISION</h3>
+                        <p>2030 World Best, Davich<br>맑고 밝은 세상, 인류를 행복하게</p>
+                        <dl>
+                            <dt>고객</dt>
+                            <dd>소외된 사람 없이 모두를 행복하게</dd>
+                            </dl>
+                            <dl>
+                            <dt>임직원</dt>
+                            <dd>함께 발전하는 미래, 최고의 평생 직장</dd>
+                            </dl>
+                            <dl>
+                            <dt>성장규모</dt>
+                            <dd>3! 3! 3! 2030년, 매출 3조, 가맹점 3000개</dd>
+                            </dl>
+                            <dl>
+                            <dt>사업영역</dt>
+                            <dd>전문화와 신사업 창줄을 통한 글로벌 사업진출</dd>
+                        </dl>
+                    </div>
+                </section>  
+                
+                <section class="sub_mission">
+                    <div>
+                       <h3>MISSION</h3>
+                       <p>전문성과 신뢰를 바탕으로 오감을 살려 인류 행복에 공헌한다.</p>
+                       <p>다비치가 추구하는 눈, 귀 건강 청력지킴이 뿐만 아니라<br>전 세계인의 오감 만족과 건강한 삶을 위해<br>우리가 지닌 전문성을 바탕으로<br>인류사회에 공헌하는 상품과 서비스를 창출하고<br>제공하는 기업으로 성장한다. </p>                         
+                    </div>                    
+                    <img src="images/content2/sub_mission.jpg" alt="">
+                </section>           
+               </div>               
+              
+              
+              <div id="tab2" class="contlist">
+                <section class="sub_value">
+                    
+                    <h3 class="hidden">VALUE</h3>
+                    <p>현장에서 답을 찾아 <span>고객 감동 실현</span></p>
+                    
+                    <div>
+                        <dl>
+                            <dt><span>현장중심</span></dt>
+                            <dd>고객이 찾아오는 현장에서 문제의 원인과 해결 대응 발견</dd>
+                        </dl> 
+                        <dl>
+                            <dt><span>고객감동</span></dt>
+                            <dd>차별화된 전략정책과 전문성을 기반으로 우리가 가야할 길</dd>
+                        </dl>
+                        <dl>
+                            <dt><span>전문성</span></dt>
+                            <dd>차별화된 전략정책 실행을 위한 중요 요소</dd> 
+                        </dl>    
+                        <dl> 
+                            <dt><span>인재육성</span></dt>  
+                            <dd>전문적인 지식과 역량을 갖춘 인재를 지속적으로 육성</dd>
+                        </dl>
+                        <dl>       
+                            <dt><span>행즉가</span></dt>
+                            <dd>行다닐행 卽곧즉 可옳을가 다비치인이라면 실행 해야하는 경영철학 행동하는 즉시 가능해진다</dd>
+                        </dl>
+                    </div>
+                </section>                                
+               </div>                                                        
+                           
+             </div>                
+            </div>  
+                
+                    
+         </article>                                                                                                                                                                          
+    <? include "../common/sub_foot.html" ?>                            
+                                                       
+    <script src="js/tab.js"></script> 
+            
+                            
+</body>
+
+</html>

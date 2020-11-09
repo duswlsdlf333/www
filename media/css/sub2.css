@@ -1,0 +1,109 @@
+.imgBox #imgBG2{
+    display: block;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    min-width: 100%;
+    height: auto;
+    min-height: 100%;
+    transform: translateX(-50%) translateY(-50%);
+    z-index: -100
+}
+
+.imgBox h2{
+    position: absolute;
+    left: 50%;
+    bottom: 40%;
+    transform: translateX(-50%);
+    text-align: center;   
+    color: #fff;    
+    text-shadow: 1px 1px 5px rgba(0,0,0,.8);
+    font-size: 80px;
+    font-weight: 700
+}
+
+#content{background: rgba(0, 0, 0, .9); width: auto; color: #fff; padding-bottom: 10%}
+
+#content section{position: relative; padding: 5% 5% 0}
+#content section>img{position: absolute}
+#content section div{width: 50%; margin-bottom: 50px}
+#content section h3{color:#fc0001; font-size: 60px; margin-bottom: 30px}
+#content section div p{font-size: 20px; margin-bottom: 16px}
+#content section li figure img{width: 100%}
+#content section .cha_img{overflow: hidden; clear: both}
+#content section .cha_img li{float: left; width: 31.33%; margin: 0 1%}
+
+.miles>img{top: 0; left: 5%}
+.miles div{float: right}
+
+.peter>img{top: 100px; right: 5%}
+.peter div{float: left}
+
+.gwen>img{top: 100px; left: 5%}
+.gwen div{float: right}
+
+.other{}
+.other h3{}
+.other ul{overflow: hidden}
+.other li{float: left; width: 48%; margin: 0 1%; overflow: hidden; margin-bottom: 40px}
+.other dl{float: left; width: 48%}
+.other dt{color:#fc0001; font-size: 40px; font-weight: 700; margin-bottom: 20px; line-height: 1em}
+.other dd{margin-bottom: 10px; font-size: 18px}
+.other li img{height: 100%}
+.other li figure{float: right; width: 48%}
+
+
+
+/* 일반 pc */
+@media screen and (max-width:1280px) {
+    .imgBox h2{font-size: 70px}
+    
+    .miles>img{width: 380px}
+    .peter>img{width: 320px}
+    .gwen>img{width: 400px}
+}
+
+/* 테블릿 */
+@media screen and (max-width:1024px) {
+    #content section h3{font-size: 50px}
+    #content section div p{font-size: 18px}    
+    
+    .miles>img{width: 320px}
+    .peter>img{width: 300px}
+    .gwen>img{width: 320px}
+    
+    .other li{float: none; width: auto}
+    .other li figure{float: right; width: 40%}
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+    .imgBox h2{font-size: 60px} 
+    
+    #content section h3{font-size: 40px}
+    
+    section>img{display: none}
+    #content section div{width: auto}
+    #content section .cha_img li:first-of-type{float: none; width: auto; margin-bottom: 2%}
+    #content section .cha_img li{width: 48%}
+    #content section div{margin-bottom: 20px}
+    
+    .other dl{width: 58%}
+    .other li figure{width: 40%}
+    
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+    .imgBox h2{font-size: 50px}
+    #content section h3{font-size: 30px}
+    #content section div p{font-size: 16px}
+    
+    .other dt{font-size: 30px}
+    .other dd{font-size: 16px}
+}
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {    
+}

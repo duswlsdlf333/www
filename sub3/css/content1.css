@@ -1,0 +1,8 @@
+.content_area{padding: 0 100px}
+.content_area p{font-family: 'Nanum Myeongjo', serif; font-size: 20px; line-height: 2em; text-align: center; margin-bottom: 50px}
+
+.content_area section{overflow: hidden; margin: 90px 0 90px 100px}
+.content_area section h3{font-size: 30px; font-family: 'Nanum Gothic', sans-serif; margin-bottom: 20px}
+.content_area section ol{float: left}
+.content_area section li{font-size: 20px; margin-bottom: 10px}
+.content_area section img{float: right; margin-right: 100px}

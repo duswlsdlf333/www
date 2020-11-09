@@ -1,0 +1,157 @@
+
+  <div id="skipNav">
+     <a href="#content">본문 바로가기</a>
+     <a href="#gnb">글로벌 네비게이션 바로가기</a>
+  </div>  
+  
+   
+   <div id="wrap">
+      
+       <header id="headerArea">
+         <div class="header_inner">          
+           <h1 class="logo">
+               <a href="index.html">다비치로고</a>               
+           </h1>
+           <div class="header_right">
+               <div class="header_top">
+                   <ul>
+<?
+    if(!$userid)  	{
+?>                           
+                      
+        <li class="log"><a href="login/login_form.php">로그인</a></li>
+        <li class="joi"><a href="member/join.html">회원가입</a></li>
+                               
+        <li>                       
+           <form  name="board_form" method="post" action="news/list.php?mode=search"> 
+
+            <div id="list_search">			
+            <!--	
+                <div id="list_search3">
+                    <label class="hidden" for="find">상품명</label>
+                    <select name="find" id="find">
+                        <option value='subject'>제목</option>
+                        <option value='content'>내용</option>
+                        <option value='nick'>별명</option>
+                        <option value='name'>이름</option>
+                    </select>
+                </div>
+                -->
+                <label class="hidden" for="find">상품명</label>
+                <input type="hidden" name="find" value="subject">
+
+                <div id="list_search4">
+
+                <label class="hidden" for="search">상품검색어입력</label>
+                <input type="text" name="search" placeholder="상품명검색"></div>
+                <div id="list_search5"><input type="image" src="../images/search.png">                
+                </div>
+            </div>
+            </form>
+		</li>
+		
+<?
+	}
+	else  
+	{
+?>         
+                       <li class="nic"><?=$usernick?></li>           
+                       <li class="log"><a href="login/logout.php">로그아웃</a></li>
+                       <li class="joi"><a href="login/member_form_modify.php">정보수정</a></li>
+                       <li>                       
+           <form  name="board_form" method="post" action="../news/list.php?mode=search"> 
+
+            <div id="list_search">			
+            <!--	
+                <div id="list_search3">
+                    <label class="hidden" for="find">상품명</label>
+                    <select name="find" id="find">
+                        <option value='subject'>제목</option>
+                        <option value='content'>내용</option>
+                        <option value='nick'>별명</option>
+                        <option value='name'>이름</option>
+                    </select>
+                </div>
+                -->
+                <label class="hidden" for="find">상품명</label>
+                <input type="hidden" name="find" value="subject">
+
+                <div id="list_search4">
+
+                <label class="hidden" for="search">상품검색어입력</label>
+                <input type="text" name="search" placeholder="상품명검색"></div>
+                <div id="list_search5"><input type="image" src="../images/search.png">                
+                </div>
+            </div>
+            </form>
+		</li>
+<?
+	}
+?>                       
+                   </ul>                   
+               </div>
+               <nav id="gnb">
+                  <h2 class="hidden">글로벌네비게이션영역</h2>
+                                    
+                  <ul class="dropdownmenu">
+                        <li class="m1 menu">
+                            <h3><a class="depth1" href="sub1/sub1_1.html">기업소개</a></h3>
+                            <ul>
+                                <li><a href="sub1/sub1_1.html">CEO 인사말</a></li>
+                                <li><a href="sub1/sub1_2.html">경영이념</a></li>
+                                <li><a href="sub1/sub1_3.html">회사연혁</a></li>
+                                <li><a href="sub1/sub1_4.html">회사CI</a></li>
+                                <li><a href="sub1/sub1_5.html">본사위치</a></li>
+                            </ul>
+                        </li>
+                        <li class="m2 menu">
+                            <h3><a class="depth1" href="sub2/sub2_1.html">제품안내</a></h3>
+                            <ul>
+                                <li><a href="sub2/sub2_1.html">안경</a></li>
+                                <li><a href="sub2/sub2_2.html">선글라스</a></li>
+                                <li><a href="sub2/sub2_3.html">콘택트렌즈</a></li>
+                            </ul>
+                        </li>
+                        <li class="m3 menu">
+                            <h3><a class="depth1" href="sub3/sub3_1.html">차별화 시스템</a></h3>
+                            <ul>
+                                <li><a href="sub3/sub3_1.html">AI-GO VCS</a></li>
+                                <li><a href="sub3/sub3_2.html">눈의 불편 체크</a></li>
+                                <li><a href="sub3/sub3_3.html">연령별 맞춤안경</a></li>   
+                            </ul>
+                        </li>
+                        <li class="m4 menu">
+                            <h3><a class="depth1" href="sub4/sub4_1.html">가맹개설</a></h3>
+                            <ul>
+                                <li><a href="sub4/sub4_1.html">가맹 안내</a></li>
+                                <li><a href="sub4/sub4_2.html">가맹 절차</a></li>
+                                <li><a href="sub4/sub4_3.html">신규 가맹점</a></li>
+                                <li><a href="sub4/sub4_4.html">가맹 문의</a></li>
+                            </ul>
+                        </li>
+                        <li class="m5 menu">
+                            <h3><a class="depth1" href="news/list.php">홍보센터</a></h3>
+                            <ul>
+                                <li><a href="news/list.php">NEWS</a></li>
+                                <li><a href="greet/list.php">공지사항</a></li>
+                                <li><a href="sub5/sub5_3.html">EVENT</a></li>
+                                <li><a href="sub5/sub5_4.html">홍보영상</a></li>
+                                <li><a href="sub5/sub5_5.html">Q&amp;A</a></li>
+                            </ul>
+                        </li>
+                        <li class="m6 menu">
+                            <h3><a class="depth1" href="sub6/sub6_1.html">인재양성</a></h3>
+                            <ul>
+                                <li><a href="sub6/sub6_1.html">아카데미 소개</a></li>
+                                <li><a href="sub6/sub6_2.html">아카데미 활동</a></li>
+                                <li><a href="sub6/sub6_3.html">아카데미 과정</a></li>                                
+                            </ul>
+                        </li>
+                  </ul>
+                  
+                  
+               </nav>     
+           </div>
+         </div>              
+       </header>
+       

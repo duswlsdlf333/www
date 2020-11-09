@@ -1,0 +1,36 @@
+/* 첫 뎁스의 공통 */
+
+
+.visual{width: 2000px; height: 300px; position: relative; left: 50%; margin: 131px 0 0 -1000px}
+.visual div{width: 2000px; height: 300px; background: rgba(0,0,0,.2); 
+    position: absolute; left:0; top:0}
+.visual h3{font-family: 'Nanum Gothic', sans-serif; font-size: 50px; position: absolute; top: 80px; left: 50%; margin-left: -94px; color: #fff; font-weight: 400}
+.visual p{font-family: 'Nanum Myeongjo', serif; font-size: 24px; position: absolute; top: 180px; left: 50%; margin-left: -275px; color: #fff}
+
+
+.subNav{width: 1200px; margin: 20px auto 0; position: relative} 
+.subNav::after {content: '';width: 2000px;height: 1px;background: #ccc;position: absolute;bottom: 23px;left: 50%;margin-left: -1000px;}
+.subNav ul{overflow: hidden; width: 1000px; height: 60px; margin: 0 auto}
+
+.subNav ul li{width: 25%; float: left; text-align: center; 
+    font-family: 'Nanum Gothic', sans-serif; position: relative}
+.subNav ul li a{display: block; font-size: 20px; transition: all .5s}
+
+.subNav ul li:hover a{color: #0079c2; font-weight: 700; letter-spacing: -1px}
+.subNav ul li:hover a::after{content: ""; display: block; width: 250px; height: 2px; background: #0079c2; position: absolute; top: 35px; left: 0}
+
+
+.subNav ul li .current{color: #0079c2; font-weight: 700; letter-spacing: -1px}
+.subNav ul li .current::after{content: ""; display: block; width: 250px; height: 2px; background: #0079c2; position: absolute; top: 35px; left: 0}
+
+
+
+#content{width: 1200px; margin: 0 auto}
+
+#content .title_area{overflow: hidden}
+
+#content .title_area .lineMap{text-align: right; padding: 0 50px}
+
+#content .title_area h2{font-family: 'Nanum Gothic', sans-serif; font-size: 60px; color: #0079c2; font-weight: 700; text-align: center; margin: 80px 50px 150px}
+
+

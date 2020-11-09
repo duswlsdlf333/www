@@ -1,0 +1,81 @@
+<?
+	session_start();
+    @extract($_GET); 
+    @extract($_POST); 
+    @extract($_SESSION); 
+?>
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>DAVICH-제품안내</title>
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
+    
+        
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="common/sub2common.css">
+    <link rel="stylesheet" href="css/content1_2.css">
+    
+    
+    <script src="../common/js/prefixfree.min.js"></script>   
+    <script src="https://kit.fontawesome.com/b4aa64dfea.js" crossorigin="anonymous"></script>  
+                  
+                  
+<!--[if IE9]>  
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->                         
+                   
+                    
+</head>
+
+<body>
+     
+<? include "../common/sub_head.html" ?>
+<? $_GET['num']=1;
+      include "common/sub_nav.html"; 
+   ?>    
+                              
+             
+                
+                                                   
+   <!-- 본문 콘텐츠 영역 -->                                   
+                                                       
+         <article id="content">
+            <div class="title_area">
+               <div class="lineMap">
+                   <span>Home</span> &gt; <span>제품안내</span> &gt; <strong>안경</strong>
+               </div> 
+               <h2>안경</h2>    
+            </div>
+            
+            <div class="content_area">
+                <p>안경광학사들의 철학과 디자이너의 감성이 더해져<br>신선하고 새로운 방향성을 제시하고 패셔너블한 안경을 제안한다.</p>                     
+                        
+                <ul>
+                    <li><a href="#"><img src="images/DAON1.jpg" alt=""><span>[다온]-DAON_5_V-55330</span></a></li>
+                    <li><a href="#"><img src="images/DAON2.jpg" alt=""><span>[다온]-DAON_5_V-55335</span></a></li>
+                    <li><a href="#"><img src="images/DAON3.jpg" alt=""><span>[다온]-DAON_5_V-55812</span></a></li>
+                    <li><a href="#"><img src="images/DAON4.jpg" alt=""><span>[다온]-DAON_5_V-55336</span></a></li>
+                    <li><a href="#"><img src="images/DAON5.jpg" alt=""><span>[다온]-DAON_5_V-59018</span></a></li>
+                    <li><a href="#"><img src="images/DAON6.jpg" alt=""><span>[다온]-DAON-S498</span></a></li>                    
+                    <li><a href="#"><img src="images/bb1.jpg" alt=""><span>[비비엠]-BIBIEM-AIR-2ND-02</span></a></li>
+                    <li><a href="#"><img src="images/bb2.jpg" alt=""><span>[비비엠]-BIBIEM-BLUE-VA-03</span></a></li>
+                    <li><a href="#"><img src="images/bb3.jpg" alt=""><span>[비비엠]-FLEON-07</span></a></li>
+                    <li><a href="#"><img src="images/aa1.jpg" alt=""><span>[비비엠]-BR02-C1_비알02-C1</span></a></li>
+                    <li><a href="#"><img src="images/aa2.jpg" alt=""><span>BIBIEM I-EN-2ND-01 MBK </span></a></li>
+                    <li><a href="#"><img src="images/aa3.jpg" alt=""><span>베타티타늄-안경,-49티탄-DAON-M4902</span></a></li>
+                </ul>
+                                                                                       
+            </div> 
+                    
+         </article>                                                                                                                                                                               
+   <? include "../common/sub_foot.html" ?>                       
+                                                       
+            
+            
+</body>
+
+</html>

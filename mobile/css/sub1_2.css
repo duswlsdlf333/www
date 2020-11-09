@@ -1,0 +1,51 @@
+.main{margin: 40px 0; position: relative}
+.main img{width: 100%}
+.main div{width: 100%; position: absolute; top: 50%; left: 0; text-align: center; margin-top: -42px}
+.main div h3{color: #fff; font-family: 'Nanum Gothic', sans-serif; font-size: 18px; margin: 10px 0}
+.main div p{color: #fff; font-family: 'Nanum Myeongjo', serif; line-height: 1.5em}
+
+#content h2{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; color: #0079c2; font-weight: 700; text-align: center; margin-bottom: 30px}
+
+#content .little_title{font-family: 'Nanum Myeongjo', serif; font-size: 16px; text-align: center; line-height: 1.5em; margin-bottom: 20px}
+
+#content .tabs{overflow: hidden; margin: 0 auto 30px}
+#content .tabs a{display: block; font-family: 'Nanum Gothic', sans-serif; font-size: 16px; text-align: center; border-top: 1px solid #ccc; border-bottom: 1px solid #ccc; color: #ccc; font-weight: 700; float: left; width: 40%; margin: 0 5%}
+#content .tabs .active{border-top: 1px solid #0079c2; border-bottom: 1px solid #0079c2; color: #0079c2}
+
+#content .sub_ideo{padding: 0 2%}
+#content section{overflow: hidden; margin-bottom: 30px}
+#content section img{display: block; width: 80%; margin: 0 auto 20px}
+#content section div{padding: 0 5%}
+#content section div h3{font-family: 'Nanum Gothic', sans-serif; font-size: 20px; font-weight: 700; margin-bottom: 10px; text-align: center; color: #0079c2}
+#content section div p{font-family: 'Nanum Myeongjo', serif; font-size: 18px; text-align: left; margin-bottom: 20px; line-height: 1.5em}
+#content section div dl{overflow: hidden; margin-bottom: 10px}
+#content section div dt{float: left; font-weight: bold; margin-right: 10px}
+#content section div dd{float: left}
+
+#content .sub_mission p:last-of-type{font-family: '돋움'; font-size: 14px; text-align: justify}
+
+
+#content .sub_value p{text-align: center; font-family: 'Nanum Myeongjo', serif; font-size: 18px; margin-bottom: 30px}
+#content .sub_value p span{color: #0079c2}
+#content .sub_value div{padding: 0}
+#content .sub_value dl{margin-bottom: 20px}
+#content .sub_value div dl dt{width: 60px; height: 60px; border: 4px solid #0fb887; border-radius: 60px; text-align: center; margin: 0}
+#content .sub_value div dl dt span{color: #333; display: block; margin: 22px auto}
+#content .sub_value div dl dd{float: none; margin-top: 26px; padding-left: 20%; line-height: 1.5em}
+
+#content .sub_value div dl:nth-of-type(2) dt{border: 4px solid #76bd1c}
+#content .sub_value div dl:nth-of-type(3) dt{border: 4px solid #10b8b6}
+#content .sub_value div dl:nth-of-type(4) dt{border: 4px solid #0079c2}
+#content .sub_value div dl:nth-of-type(5) dt{border: 4px solid #004181}
+
+
+
+
+
+
+
+
+
+
+
+
